@@ -1,0 +1,31 @@
+2019-01-08 17:41:37 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-01-08 17:41:39 
+::1 GET /tourism/public-api/v1/users/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDY5NDQwOTgsImp0aSI6InRoOGorTHVlM2ZMVWZ6RzFFRENxOE9GZGl5aVduZEdQQmd4VVA2cXZrUDQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTQ2OTQ0MDk4LCJleHAiOjE1NDY5NDU4OTgsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.nRj7U_8nYbaP-XgGCWwFTLJ_C-84MZeWWH37C9CzFGw
+Connection: close
+Request body:
+
+========================================
+2019-01-08 17:41:46 
+::1 GET /tourism/public-api/v1/provinces/1/countries?limit=40 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDY5NDQwOTgsImp0aSI6InRoOGorTHVlM2ZMVWZ6RzFFRENxOE9GZGl5aVduZEdQQmd4VVA2cXZrUDQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTQ2OTQ0MDk4LCJleHAiOjE1NDY5NDU4OTgsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.nRj7U_8nYbaP-XgGCWwFTLJ_C-84MZeWWH37C9CzFGw
+Connection: close
+Request body:
+
+========================================

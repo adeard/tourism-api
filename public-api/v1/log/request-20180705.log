@@ -1,0 +1,43 @@
+2018-07-05 01:03:08 
+::1 GET /synergix/pos/public-api/v1/ticket_types HTTP/1.1
+HTTP headers:
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzA3MjcyODIsImp0aSI6Ik5ieWI1RVwvZERyQUJcL0lpTGhCUFY3a1RXZ2dTRDljbE5kRHAzUnJFT0Fnaz0iLCJpc3MiOiIxOTIuMTY4LjMwLjQiLCJuYmYiOjE1MzA3MjcyODIsImV4cCI6MTUzMDcyOTA4MiwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiIxOTIuMTY4LjMwLjQiLCJ1c2VyX2FnZW50IjoiUG9zdG1hblJ1bnRpbWVcLzcuMS41In19.53R5f17y2VKeKOSDCh1j40YIDJ81ei-30cITF30Y1FY
+cache-control: no-cache
+Postman-Token: 09088185-1f93-4a9c-ba16-14d5edfffd0e
+User-Agent: PostmanRuntime/7.1.5
+Accept: */*
+Host: localhost
+accept-encoding: gzip, deflate
+Connection: keep-alive
+Request body:
+
+========================================
+2018-07-05 01:03:37 
+::1 POST /synergix/pos/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Content-Type: application/x-www-form-urlencoded
+cache-control: no-cache
+Postman-Token: dd81fcdd-c4db-4067-841b-a300534de8ce
+User-Agent: PostmanRuntime/7.1.5
+Accept: */*
+Host: localhost
+accept-encoding: gzip, deflate
+content-length: 29
+Connection: keep-alive
+Request body:
+username=mario&password=mario
+========================================
+2018-07-05 01:03:52 
+::1 GET /synergix/pos/public-api/v1/ticket_types HTTP/1.1
+HTTP headers:
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzA3Mjc0MTgsImp0aSI6IjdPOVQyT2dxWFVBaFlzYm83d2pINGVEbkU1K0RjYytjOE1STVhVUmxjWlE9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMwNzI3NDE4LCJleHAiOjE1MzA3MjkyMTgsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlBvc3RtYW5SdW50aW1lXC83LjEuNSJ9fQ.GsjTE-taDhHdNWDXQBfsnjZO4Y4wPqFy0IDsGDHRjYA
+cache-control: no-cache
+Postman-Token: 1a749d4d-cd17-40f2-9a92-f08e947207ef
+User-Agent: PostmanRuntime/7.1.5
+Accept: */*
+Host: localhost
+accept-encoding: gzip, deflate
+Connection: keep-alive
+Request body:
+
+========================================

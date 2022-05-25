@@ -1,0 +1,569 @@
+2019-04-30 15:57:29 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-04-30 15:57:30 
+::1 GET /tourism/public-api/v1/users/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 15:57:54 
+::1 GET /tourism/public-api/v1/tourism?tourism_approval_status=2 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 15:57:55 
+::1 GET /tourism/public-api/v1/continents HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:06:19 
+::1 GET /tourism/public-api/v1/tourism?tourism_approval_status=2 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:06:19 
+::1 GET /tourism/public-api/v1/continents HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:06:27 
+::1 GET /tourism/public-api/v1/tourism?tourism_approval_status=2 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:06:28 
+::1 GET /tourism/public-api/v1/continents HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:06:32 
+::1 GET /tourism/public-api/v1/users/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:06:33 
+::1 GET /tourism/public-api/v1/provinces/1/countries?limit=40 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:06:33 
+::1 GET /tourism/public-api/v1/users/1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:08:27 
+::1 GET /tourism/public-api/v1/destination_accounts/active HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:08:37 
+::1 GET /tourism/public-api/v1/tourism?tourism_approval_status=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:18:03 
+::1 GET /tourism/public-api/v1/destination_accounts/active HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:18:06 
+::1 GET /tourism/public-api/v1/destination_accounts/active HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:28:18 
+::1 GET /tourism/public-api/v1/payment_confirmation HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTQ2NDksImp0aSI6IkRCbWRtYytLWnREWG9IUWNqdk5SZXNvWnB6b1VDaVplXC9LemtXWnE0ZFEwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNDY0OSwiZXhwIjoxNTU2NjE2NDQ5LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.g36IrDhCshx6XGlaHUQ9Q39V6p3YA8165ullVghXH8M
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:28:18 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-04-30 16:28:19 
+::1 GET /tourism/public-api/v1/payment_confirmation HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTY0OTgsImp0aSI6IlpKeTZlWERpbDdJQmZzZ3F4aUIwYVZvMG1zdzhwQmFOVnBZXC91dG9QZk9jPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxNjQ5OCwiZXhwIjoxNTU2NjE4Mjk4LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.SrLqY99hRYP7tZqzQB1CvKX_TmyCbR2nESHJa-mQTFg
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:28:19 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-04-30 16:28:20 
+::1 GET /tourism/public-api/v1/payment_confirmation HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTY0OTksImp0aSI6IkdFT1o3OFhDQVVTbTVoSzN3VVwvNGRGXC9iam4yNW85U1NpTU9CSzBwUkFNdz0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1NTY2MTY0OTksImV4cCI6MTU1NjYxODI5OSwiZGF0YSI6eyJ1c2VybmFtZSI6ImFkZSIsInBhc3N3b3JkIjoiYjcwMTY2ZDIzNTllNTVmZjM0ODRmNWQ3MDIwYzcwZDg2ZDg5MDc5NiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.sZl-egKFjARY2mAn3VoeVoBqeLp5Gp9ikm_YV3_OWTk
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:28:20 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-04-30 16:28:21 
+::1 GET /tourism/public-api/v1/payment_confirmation HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTY1MDAsImp0aSI6IkRqd0NKWVdMeVVtVEU2bkRueGdrNkw1QmRBRjd5TFNKQnVMeVhRY0NBbDQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjE2NTAwLCJleHAiOjE1NTY2MTgzMDAsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.tcm5wDjhs2c6r6F2OuwbD1oQ9F2sgenPrUrT_pFqXrg
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:37:33 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTY1MDAsImp0aSI6IkRqd0NKWVdMeVVtVEU2bkRueGdrNkw1QmRBRjd5TFNKQnVMeVhRY0NBbDQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjE2NTAwLCJleHAiOjE1NTY2MTgzMDAsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.tcm5wDjhs2c6r6F2OuwbD1oQ9F2sgenPrUrT_pFqXrg
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:37:56 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTY1MDAsImp0aSI6IkRqd0NKWVdMeVVtVEU2bkRueGdrNkw1QmRBRjd5TFNKQnVMeVhRY0NBbDQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjE2NTAwLCJleHAiOjE1NTY2MTgzMDAsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.tcm5wDjhs2c6r6F2OuwbD1oQ9F2sgenPrUrT_pFqXrg
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:45:34 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTY1MDAsImp0aSI6IkRqd0NKWVdMeVVtVEU2bkRueGdrNkw1QmRBRjd5TFNKQnVMeVhRY0NBbDQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjE2NTAwLCJleHAiOjE1NTY2MTgzMDAsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.tcm5wDjhs2c6r6F2OuwbD1oQ9F2sgenPrUrT_pFqXrg
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:49:24 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTY1MDAsImp0aSI6IkRqd0NKWVdMeVVtVEU2bkRueGdrNkw1QmRBRjd5TFNKQnVMeVhRY0NBbDQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjE2NTAwLCJleHAiOjE1NTY2MTgzMDAsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.tcm5wDjhs2c6r6F2OuwbD1oQ9F2sgenPrUrT_pFqXrg
+Connection: close
+Request body:
+
+========================================
+2019-04-30 16:55:03 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTY1MDAsImp0aSI6IkRqd0NKWVdMeVVtVEU2bkRueGdrNkw1QmRBRjd5TFNKQnVMeVhRY0NBbDQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjE2NTAwLCJleHAiOjE1NTY2MTgzMDAsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.tcm5wDjhs2c6r6F2OuwbD1oQ9F2sgenPrUrT_pFqXrg
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:00:40 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTY1MDAsImp0aSI6IkRqd0NKWVdMeVVtVEU2bkRueGdrNkw1QmRBRjd5TFNKQnVMeVhRY0NBbDQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjE2NTAwLCJleHAiOjE1NTY2MTgzMDAsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.tcm5wDjhs2c6r6F2OuwbD1oQ9F2sgenPrUrT_pFqXrg
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:00:41 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-04-30 17:00:42 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTg0NDEsImp0aSI6Imdzd0NoUSt2Q1dVXC85Zkp1V1M5WFlvK1FIV2kwN05RVWwxNEJEMU9FSDVrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxODQ0MSwiZXhwIjoxNTU2NjIwMjQxLCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.qcIqCu9f7shE9mfAUJAAwFI-KfjA-Ufc-FtSFWVc908
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:01:40 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTg0NDEsImp0aSI6Imdzd0NoUSt2Q1dVXC85Zkp1V1M5WFlvK1FIV2kwN05RVWwxNEJEMU9FSDVrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxODQ0MSwiZXhwIjoxNTU2NjIwMjQxLCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.qcIqCu9f7shE9mfAUJAAwFI-KfjA-Ufc-FtSFWVc908
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:02:37 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTg0NDEsImp0aSI6Imdzd0NoUSt2Q1dVXC85Zkp1V1M5WFlvK1FIV2kwN05RVWwxNEJEMU9FSDVrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxODQ0MSwiZXhwIjoxNTU2NjIwMjQxLCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.qcIqCu9f7shE9mfAUJAAwFI-KfjA-Ufc-FtSFWVc908
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:05:05 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTg0NDEsImp0aSI6Imdzd0NoUSt2Q1dVXC85Zkp1V1M5WFlvK1FIV2kwN05RVWwxNEJEMU9FSDVrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxODQ0MSwiZXhwIjoxNTU2NjIwMjQxLCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.qcIqCu9f7shE9mfAUJAAwFI-KfjA-Ufc-FtSFWVc908
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:05:42 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTg0NDEsImp0aSI6Imdzd0NoUSt2Q1dVXC85Zkp1V1M5WFlvK1FIV2kwN05RVWwxNEJEMU9FSDVrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxODQ0MSwiZXhwIjoxNTU2NjIwMjQxLCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.qcIqCu9f7shE9mfAUJAAwFI-KfjA-Ufc-FtSFWVc908
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:07:07 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTg0NDEsImp0aSI6Imdzd0NoUSt2Q1dVXC85Zkp1V1M5WFlvK1FIV2kwN05RVWwxNEJEMU9FSDVrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxODQ0MSwiZXhwIjoxNTU2NjIwMjQxLCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.qcIqCu9f7shE9mfAUJAAwFI-KfjA-Ufc-FtSFWVc908
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:24:22 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTg0NDEsImp0aSI6Imdzd0NoUSt2Q1dVXC85Zkp1V1M5WFlvK1FIV2kwN05RVWwxNEJEMU9FSDVrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxODQ0MSwiZXhwIjoxNTU2NjIwMjQxLCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.qcIqCu9f7shE9mfAUJAAwFI-KfjA-Ufc-FtSFWVc908
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:31:35 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MTg0NDEsImp0aSI6Imdzd0NoUSt2Q1dVXC85Zkp1V1M5WFlvK1FIV2kwN05RVWwxNEJEMU9FSDVrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYxODQ0MSwiZXhwIjoxNTU2NjIwMjQxLCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.qcIqCu9f7shE9mfAUJAAwFI-KfjA-Ufc-FtSFWVc908
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:31:35 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-04-30 17:31:36 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:37:26 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:37:51 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:38:51 
+::1 GET /tourism/public-api/v1/payment_confirmations/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:40:43 
+::1 GET /tourism/public-api/v1/payment_confirmations/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:40:43 
+::1 GET /tourism/public-api/v1/tickets/4 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:51:14 
+::1 GET /tourism/public-api/v1/payment_confirmations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:51:17 
+::1 GET /tourism/public-api/v1/payment_confirmations/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:51:17 
+::1 GET /tourism/public-api/v1/tickets/4 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Request body:
+
+========================================
+2019-04-30 17:51:17 
+::1 PUT /tourism/public-api/v1/tickets/4 HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 28
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+is_paid=1&ticket_status_id=4
+========================================
+2019-04-30 17:51:17 
+::1 PUT /tourism/public-api/v1/payment_confirmations/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 17
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjAyOTUsImp0aSI6IlRSbU8wRVFDb2tYQko1M2Z5K1E0cEJKbnREMHpsUG5GM1RxSXhWTzlKYmc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIwMjk1LCJleHAiOjE1NTY2MjIwOTUsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.8zzmlsK-awmD8cVfaDU3rAbvbb2buZbEs6KOdxg0Rl4
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+status=verifikasi
+========================================
+2019-04-30 17:51:17 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-04-30 17:51:18 
+::1 PUT /tourism/public-api/v1/payment_confirmations/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 17
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjE0NzcsImp0aSI6IjR1NEJQbTV5Z1ZvWDNDb1BOMnJObDlMTzk5Mzdlc3FjQ0JiYkNQazBmWnM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIxNDc3LCJleHAiOjE1NTY2MjMyNzcsImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.WBB12Qrh8pQEJQdJrf2ywAi4aNq-EliGef0xuXwTM0w
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+status=verifikasi
+========================================
+2019-04-30 17:51:18 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-04-30 17:51:19 
+::1 PUT /tourism/public-api/v1/payment_confirmations/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 17
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjE0NzgsImp0aSI6IjJ3YmYxYTY3M1QxcHBka1pxWG9md1dLRWlURVpwbmF5SmxnODlQb05FXC9jPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NjYyMTQ3OCwiZXhwIjoxNTU2NjIzMjc4LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.ED8zsnl-hFJHLwvnAds4x5e2AmBppM5Y6PBK-gUCfkU
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+status=verifikasi
+========================================
+2019-04-30 17:51:19 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-04-30 17:51:20 
+::1 PUT /tourism/public-api/v1/payment_confirmations/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 17
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY2MjE0NzksImp0aSI6IlJ4VkhFaTZ5dVBqZHhKbG1ucjdvSkVBejlzMHByTjRLUW1tR1RLODM4ZTA9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTU2NjIxNDc5LCJleHAiOjE1NTY2MjMyNzksImRhdGEiOnsidXNlcm5hbWUiOiJhZGUiLCJwYXNzd29yZCI6ImI3MDE2NmQyMzU5ZTU1ZmYzNDg0ZjVkNzAyMGM3MGQ4NmQ4OTA3OTYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.B_cnsnDI26AII_0s5K8RxFuluJWvWtKTng-KU_XthcQ
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+status=verifikasi
+========================================

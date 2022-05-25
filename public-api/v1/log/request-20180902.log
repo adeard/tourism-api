@@ -1,0 +1,61 @@
+2018-09-02 14:15:11 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2018-09-02 14:15:13 
+::1 GET /tourism/public-api/v1/users/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzU4NzI1MTIsImp0aSI6IlwvaDUzWGhXRldPZUxhXC90cEtVUThmUVwveVwvVWJpRlVXbEdmVmZCU2FcL1lqVT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzU4NzI1MTIsImV4cCI6MTUzNTg3NDMxMiwiZGF0YSI6eyJ1c2VybmFtZSI6ImFkZSIsInBhc3N3b3JkIjoiYjcwMTY2ZDIzNTllNTVmZjM0ODRmNWQ3MDIwYzcwZDg2ZDg5MDc5NiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.GxWFd6SrVjeDwNDodoiCqHzl_UJmFDy1DB8PE0CLIIM
+Connection: close
+Request body:
+
+========================================
+2018-09-02 14:15:25 
+::1 GET /tourism/public-api/v1/countries/5/continent?limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzU4NzI1MTIsImp0aSI6IlwvaDUzWGhXRldPZUxhXC90cEtVUThmUVwveVwvVWJpRlVXbEdmVmZCU2FcL1lqVT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzU4NzI1MTIsImV4cCI6MTUzNTg3NDMxMiwiZGF0YSI6eyJ1c2VybmFtZSI6ImFkZSIsInBhc3N3b3JkIjoiYjcwMTY2ZDIzNTllNTVmZjM0ODRmNWQ3MDIwYzcwZDg2ZDg5MDc5NiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.GxWFd6SrVjeDwNDodoiCqHzl_UJmFDy1DB8PE0CLIIM
+Connection: close
+Request body:
+
+========================================
+2018-09-02 14:15:26 
+::1 GET /tourism/public-api/v1/countries/5/continent?limit=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzU4NzI1MTIsImp0aSI6IlwvaDUzWGhXRldPZUxhXC90cEtVUThmUVwveVwvVWJpRlVXbEdmVmZCU2FcL1lqVT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzU4NzI1MTIsImV4cCI6MTUzNTg3NDMxMiwiZGF0YSI6eyJ1c2VybmFtZSI6ImFkZSIsInBhc3N3b3JkIjoiYjcwMTY2ZDIzNTllNTVmZjM0ODRmNWQ3MDIwYzcwZDg2ZDg5MDc5NiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.GxWFd6SrVjeDwNDodoiCqHzl_UJmFDy1DB8PE0CLIIM
+Connection: close
+Request body:
+
+========================================
+2018-09-02 14:15:31 
+::1 GET /tourism/public-api/v1/provinces/1/countries?limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzU4NzI1MTIsImp0aSI6IlwvaDUzWGhXRldPZUxhXC90cEtVUThmUVwveVwvVWJpRlVXbEdmVmZCU2FcL1lqVT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzU4NzI1MTIsImV4cCI6MTUzNTg3NDMxMiwiZGF0YSI6eyJ1c2VybmFtZSI6ImFkZSIsInBhc3N3b3JkIjoiYjcwMTY2ZDIzNTllNTVmZjM0ODRmNWQ3MDIwYzcwZDg2ZDg5MDc5NiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.GxWFd6SrVjeDwNDodoiCqHzl_UJmFDy1DB8PE0CLIIM
+Connection: close
+Request body:
+
+========================================
+2018-09-02 14:15:32 
+::1 GET /tourism/public-api/v1/provinces/1/countries?limit=33 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzU4NzI1MTIsImp0aSI6IlwvaDUzWGhXRldPZUxhXC90cEtVUThmUVwveVwvVWJpRlVXbEdmVmZCU2FcL1lqVT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzU4NzI1MTIsImV4cCI6MTUzNTg3NDMxMiwiZGF0YSI6eyJ1c2VybmFtZSI6ImFkZSIsInBhc3N3b3JkIjoiYjcwMTY2ZDIzNTllNTVmZjM0ODRmNWQ3MDIwYzcwZDg2ZDg5MDc5NiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.GxWFd6SrVjeDwNDodoiCqHzl_UJmFDy1DB8PE0CLIIM
+Connection: close
+Request body:
+
+========================================

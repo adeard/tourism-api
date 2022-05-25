@@ -1,0 +1,2127 @@
+2018-07-17 10:18:59 
+::1 POST /synergix/pos/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 29
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=mario&password=mario
+========================================
+2018-07-17 10:19:03 
+::1 GET /synergix/pos/public-api/v1/users/3 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE3OTc1NDIsImp0aSI6IktYaGY4QTJXN3ZrdE1meTM1Z0VxYzNnXC9NeVIyWW1vK05Tc2ZNYnR0SzN3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTc5NzU0MiwiZXhwIjoxNTMxNzk5MzQyLCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.yFI3GVmRazjrCPQUlpT4HeZ2uQI8IqIFn5MbYsnWics
+Connection: close
+Request body:
+
+========================================
+2018-07-17 10:19:04 
+::1 GET /synergix/pos/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=3&order=code&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE3OTc1NDIsImp0aSI6IktYaGY4QTJXN3ZrdE1meTM1Z0VxYzNnXC9NeVIyWW1vK05Tc2ZNYnR0SzN3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTc5NzU0MiwiZXhwIjoxNTMxNzk5MzQyLCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.yFI3GVmRazjrCPQUlpT4HeZ2uQI8IqIFn5MbYsnWics
+Connection: close
+Request body:
+
+========================================
+2018-07-17 10:19:05 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE3OTc1NDIsImp0aSI6IktYaGY4QTJXN3ZrdE1meTM1Z0VxYzNnXC9NeVIyWW1vK05Tc2ZNYnR0SzN3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTc5NzU0MiwiZXhwIjoxNTMxNzk5MzQyLCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.yFI3GVmRazjrCPQUlpT4HeZ2uQI8IqIFn5MbYsnWics
+Connection: close
+Request body:
+
+========================================
+2018-07-17 10:19:05 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/departments HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE3OTc1NDIsImp0aSI6IktYaGY4QTJXN3ZrdE1meTM1Z0VxYzNnXC9NeVIyWW1vK05Tc2ZNYnR0SzN3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTc5NzU0MiwiZXhwIjoxNTMxNzk5MzQyLCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.yFI3GVmRazjrCPQUlpT4HeZ2uQI8IqIFn5MbYsnWics
+Connection: close
+Request body:
+
+========================================
+2018-07-17 10:19:05 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/categories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE3OTc1NDIsImp0aSI6IktYaGY4QTJXN3ZrdE1meTM1Z0VxYzNnXC9NeVIyWW1vK05Tc2ZNYnR0SzN3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTc5NzU0MiwiZXhwIjoxNTMxNzk5MzQyLCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.yFI3GVmRazjrCPQUlpT4HeZ2uQI8IqIFn5MbYsnWics
+Connection: close
+Request body:
+
+========================================
+2018-07-17 10:19:05 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/subcategories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE3OTc1NDIsImp0aSI6IktYaGY4QTJXN3ZrdE1meTM1Z0VxYzNnXC9NeVIyWW1vK05Tc2ZNYnR0SzN3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTc5NzU0MiwiZXhwIjoxNTMxNzk5MzQyLCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.yFI3GVmRazjrCPQUlpT4HeZ2uQI8IqIFn5MbYsnWics
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:37 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE3OTc1NDIsImp0aSI6IktYaGY4QTJXN3ZrdE1meTM1Z0VxYzNnXC9NeVIyWW1vK05Tc2ZNYnR0SzN3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTc5NzU0MiwiZXhwIjoxNTMxNzk5MzQyLCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.yFI3GVmRazjrCPQUlpT4HeZ2uQI8IqIFn5MbYsnWics
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:37 
+::1 POST /synergix/pos/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 29
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=mario&password=mario
+========================================
+2018-07-17 11:46:39 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:39 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:40 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:40 
+::1 GET /synergix/pos/public-api/v1/ticket_statuses/active?order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:40 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:41 
+::1 GET /synergix/pos/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:42 
+::1 GET /synergix/pos/public-api/v1/tickets?limit=20&start=1531760400&end=1531760400 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:46 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:47 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:48 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:48 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:48 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:49 
+::1 GET /synergix/pos/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:49 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:49 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:46:50 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:40 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:40 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:40 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:41 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:41 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:41 
+::1 GET /synergix/pos/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:42 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:42 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:42 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:49 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:50 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:50 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:50 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:51 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:51 
+::1 GET /synergix/pos/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:52 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:52 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:52 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:51:54 
+::1 GET /synergix/pos/public-api/v1/calls/80 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:52:04 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?inbound_type_id=5&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:52:47 
+::1 GET /synergix/pos/public-api/v1/products?product_type_id=2&is_active=1&limit=500 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:03 
+::1 GET /synergix/pos/public-api/v1/customers?order=id&sort=desc&fullname=a&limit=10 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:14 
+::1 POST /synergix/pos/public-api/v1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 319
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+media_id=1&contact_type_id=1&ticket_source_id=1&product_type_id=2&ticket_category_id=3&ticket_priority_id=1&ticket_type_id=5&department_id=8&create_date=2018-07-17+11%3A53%3A14&create_user_id=3&open_date=2018-07-17+11%3A53%3A14&open_user_id=3&ticket_detail=description&customer_id=3&sla=&product_id=3&ticket_status_id=1
+========================================
+2018-07-17 11:53:18 
+::1 GET /synergix/pos/public-api/v1/tickets/2493 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:20 
+::1 GET /synergix/pos/public-api/v1/tickets?limit=1&ticket_no=1807170022 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:21 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:22 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:22 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:23 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?is_active=1&ticket_type_id=5 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:23 
+::1 GET /synergix/pos/public-api/v1/ticket_subcategories?is_active=1&ticket_category_id=3 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:24 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:24 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:25 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:25 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:26 
+::1 GET /synergix/pos/public-api/v1/outbound_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:56 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:57 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:57 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:57 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:57 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:58 
+::1 GET /synergix/pos/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:58 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:58 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:53:59 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:00 
+::1 GET /synergix/pos/public-api/v1/calls/80 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:07 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?inbound_type_id=6&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:11 
+::1 GET /synergix/pos/public-api/v1/products?product_type_id=3&is_active=1&limit=500 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:42 
+::1 POST /synergix/pos/public-api/v1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 324
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+media_id=1&contact_type_id=1&ticket_source_id=1&product_type_id=3&ticket_category_id=10&ticket_priority_id=1&ticket_type_id=6&department_id=13&create_date=2018-07-17+11%3A54%3A42&create_user_id=3&open_date=2018-07-17+11%3A54%3A42&open_user_id=3&ticket_detail=test+send+email&customer_id=&sla=&product_id=5&ticket_status_id=1
+========================================
+2018-07-17 11:54:43 
+::1 GET /synergix/pos/public-api/v1/tickets/2494 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:45 
+::1 GET /synergix/pos/public-api/v1/tickets?limit=1&ticket_no=1807170023 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:46 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:46 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:47 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:47 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?is_active=1&ticket_type_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:47 
+::1 GET /synergix/pos/public-api/v1/ticket_subcategories?is_active=1&ticket_category_id=10 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:48 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:48 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:48 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:49 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 11:54:49 
+::1 GET /synergix/pos/public-api/v1/outbound_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:21 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MDI3OTgsImp0aSI6InNmajVjWjhneWlcL3Jic2ZVblRDQ0lWY1BtYmM0VkN0bWtIV1wvVU9aMU5SRT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzE4MDI3OTgsImV4cCI6MTUzMTgwNDU5OCwiZGF0YSI6eyJ1c2VybmFtZSI6Im1hcmlvIiwicGFzc3dvcmQiOiJkZmViOWIwMWU5MzFlYjY4MTM5NTI4NDg4YTA0NWU3ZWI2MzdhYWM2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ._57NfNjbQiZm1EdM35clTSFdp3CqPpVdyaxTY92mJOM
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:22 
+::1 POST /synergix/pos/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 29
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=mario&password=mario
+========================================
+2018-07-17 14:07:23 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:23 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:24 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:24 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:24 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:25 
+::1 GET /synergix/pos/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:25 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:25 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:26 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:27 
+::1 GET /synergix/pos/public-api/v1/calls/80 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:32 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?inbound_type_id=5&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:36 
+::1 GET /synergix/pos/public-api/v1/customers?order=id&sort=desc&fullname=a&limit=10 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:07:42 
+::1 GET /synergix/pos/public-api/v1/products?product_type_id=2&is_active=1&limit=500 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:19 
+::1 POST /synergix/pos/public-api/v1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 319
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+media_id=1&contact_type_id=1&ticket_source_id=1&product_type_id=2&ticket_category_id=5&ticket_priority_id=2&ticket_type_id=5&department_id=6&create_date=2018-07-17+14%3A10%3A19&create_user_id=3&open_date=2018-07-17+14%3A10%3A19&open_user_id=3&ticket_detail=test+ticket&customer_id=5&sla=&product_id=3&ticket_status_id=1
+========================================
+2018-07-17 14:10:20 
+::1 GET /synergix/pos/public-api/v1/tickets/2495 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:22 
+::1 GET /synergix/pos/public-api/v1/tickets?limit=1&ticket_no=1807170024 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:23 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:23 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:24 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:24 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?is_active=1&ticket_type_id=5 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:24 
+::1 GET /synergix/pos/public-api/v1/ticket_subcategories?is_active=1&ticket_category_id=5 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:25 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:25 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:26 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:26 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:10:26 
+::1 GET /synergix/pos/public-api/v1/outbound_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:16 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTEyNDIsImp0aSI6IjF1KzJKeG1aQzZlUGxnK1hNQ0J4dWMrZ05wdUJkZmlJSDdOT1BMMEdjVHM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODExMjQyLCJleHAiOjE1MzE4MTMwNDIsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Lc3L4gu4c87Q5aoSxjRvZcgJk7Ie_p2JdgJ0DRnt0q8
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:16 
+::1 POST /synergix/pos/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 29
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=mario&password=mario
+========================================
+2018-07-17 14:52:17 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:18 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:18 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:19 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:20 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:21 
+::1 GET /synergix/pos/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:21 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:22 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:22 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:24 
+::1 GET /synergix/pos/public-api/v1/calls/80 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:53 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?inbound_type_id=6&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:52:57 
+::1 GET /synergix/pos/public-api/v1/products?product_type_id=1&is_active=1&limit=500 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:12 
+::1 GET /synergix/pos/public-api/v1/customers?order=id&sort=desc&fullname=a&limit=10 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:34 
+::1 POST /synergix/pos/public-api/v1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 320
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+media_id=1&contact_type_id=1&ticket_source_id=1&product_type_id=1&ticket_category_id=8&ticket_priority_id=1&ticket_type_id=6&department_id=10&create_date=2018-07-17+14%3A53%3A34&create_user_id=3&open_date=2018-07-17+14%3A53%3A34&open_user_id=3&ticket_detail=test+ticket&customer_id=5&sla=&product_id=1&ticket_status_id=1
+========================================
+2018-07-17 14:53:35 
+::1 GET /synergix/pos/public-api/v1/tickets/2496 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:37 
+::1 GET /synergix/pos/public-api/v1/tickets?limit=1&ticket_no=1807170025 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:38 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:39 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:39 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:40 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?is_active=1&ticket_type_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:40 
+::1 GET /synergix/pos/public-api/v1/ticket_subcategories?is_active=1&ticket_category_id=8 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:41 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:41 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:42 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:42 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:53:43 
+::1 GET /synergix/pos/public-api/v1/outbound_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:35 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:35 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:35 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:36 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:36 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:36 
+::1 GET /synergix/pos/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:37 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:37 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:38 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:39 
+::1 GET /synergix/pos/public-api/v1/calls/80 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:48 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?inbound_type_id=5&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:55:55 
+::1 GET /synergix/pos/public-api/v1/products?product_type_id=2&is_active=1&limit=500 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:11 
+::1 GET /synergix/pos/public-api/v1/customers?order=id&sort=desc&fullname=a&limit=10 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:16 
+::1 POST /synergix/pos/public-api/v1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 323
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+media_id=1&contact_type_id=1&ticket_source_id=1&product_type_id=2&ticket_category_id=5&ticket_priority_id=1&ticket_type_id=5&department_id=13&create_date=2018-07-17+14%3A56%3A16&create_user_id=3&open_date=2018-07-17+14%3A56%3A16&open_user_id=3&ticket_detail=testing+ticket&customer_id=5&sla=&product_id=3&ticket_status_id=1
+========================================
+2018-07-17 14:56:18 
+::1 GET /synergix/pos/public-api/v1/tickets/2497 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:23 
+::1 GET /synergix/pos/public-api/v1/tickets?limit=1&ticket_no=1807170026 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:25 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:25 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:27 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:27 
+::1 GET /synergix/pos/public-api/v1/ticket_categories?is_active=1&ticket_type_id=5 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:28 
+::1 GET /synergix/pos/public-api/v1/ticket_subcategories?is_active=1&ticket_category_id=5 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:29 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:29 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:30 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:30 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 14:56:31 
+::1 GET /synergix/pos/public-api/v1/outbound_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:13 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTM5MzYsImp0aSI6IjNXMjlkcFo1QkZscHRtUHRaZmo3dnhLNWZSXC9lK0Q1dzA4cGRXam9mT1g0PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgxMzkzNiwiZXhwIjoxNTMxODE1NzM2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.0ZSNUhc88XgUAuLBfY7sUtBfAoj1iRho-X9vEZNIzqQ
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:13 
+::1 POST /synergix/pos/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 29
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=mario&password=mario
+========================================
+2018-07-17 16:05:15 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:16 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:17 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:24 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:25 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:26 
+::1 GET /synergix/pos/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:31 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:31 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:32 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 16:05:34 
+::1 GET /synergix/pos/public-api/v1/calls/80 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:10:16 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MTgzMTQsImp0aSI6IjlHY0tLa2JLTjdoQnR5QkxtVUFtMGVScGdhQUliM0NlVzJmeTFIWDduVzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODE4MzE0LCJleHAiOjE1MzE4MjAxMTQsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.KTDjzP8X-kxSvH1stGB6x_Ec1KY_7z5zDETRpGUUpK4
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:10:16 
+::1 POST /synergix/pos/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 29
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=mario&password=mario
+========================================
+2018-07-17 19:10:17 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:10:18 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/departments HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:10:19 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/categories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:10:19 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/subcategories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:25 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:25 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/departments HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:26 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/categories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:26 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/subcategories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:29 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:30 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:30 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:30 
+::1 GET /synergix/pos/public-api/v1/ticket_statuses/active?order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:31 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:31 
+::1 GET /synergix/pos/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:32 
+::1 GET /synergix/pos/public-api/v1/tickets?limit=20&start=1531760400&end=1531760400 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:53 
+::1 GET /synergix/pos/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:54 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:54 
+::1 GET /synergix/pos/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:54 
+::1 GET /synergix/pos/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:55 
+::1 GET /synergix/pos/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:55 
+::1 GET /synergix/pos/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:56 
+::1 GET /synergix/pos/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:56 
+::1 GET /synergix/pos/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:11:56 
+::1 GET /synergix/pos/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4Mjk0MTYsImp0aSI6ImdxU2F6RVFWVGYyMG93dTVCaEZcL2hKS2FPU1dRclRlTmZ0QjVrUXk5WGhNPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUzMTgyOTQxNiwiZXhwIjoxNTMxODMxMjE2LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.5ymyHqvby1yhGIzps26uTTRjfJM0AqNyici8M_ouTHs
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:41:04 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MzA4MjQsImp0aSI6IkdLY2hzc09nbjNmQ1E4MVBwMVNaTmFJblErTjZLZElYVmZiR2wzTEhvK2c9IiwiaXNzIjoiMTcyLjIyLjI0LjEzMSIsIm5iZiI6MTUzMTgzMDgyNCwiZXhwIjoxNTMxODMyNjI0LCJkYXRhIjp7InVzZXJuYW1lIjoibWFyaW8iLCJwYXNzd29yZCI6ImRmZWI5YjAxZTkzMWViNjgxMzk1Mjg0ODhhMDQ1ZTdlYjYzN2FhYzYiLCJpcCI6IjE3Mi4yMi4yNC4xMzEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.T_8FAszKzWcGj6tEs7urq96alZQCrqdVxRc0Az3XXag
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:41:05 
+::1 POST /synergix/pos/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 29
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=mario&password=mario
+========================================
+2018-07-17 19:41:06 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MzEyNjUsImp0aSI6InB5U2lWRkIzZjFGNThQa3RYWllRZ00zSE5oVVQzRU82OXVEdWlxc1V0Z2c9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODMxMjY1LCJleHAiOjE1MzE4MzMwNjUsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.bfIL8fLU3ubB5N_QO-ZbBhQfolMzAqvigl099XS4ZKc
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:41:06 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/departments HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MzEyNjUsImp0aSI6InB5U2lWRkIzZjFGNThQa3RYWllRZ00zSE5oVVQzRU82OXVEdWlxc1V0Z2c9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODMxMjY1LCJleHAiOjE1MzE4MzMwNjUsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.bfIL8fLU3ubB5N_QO-ZbBhQfolMzAqvigl099XS4ZKc
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:41:07 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/categories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MzEyNjUsImp0aSI6InB5U2lWRkIzZjFGNThQa3RYWllRZ00zSE5oVVQzRU82OXVEdWlxc1V0Z2c9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODMxMjY1LCJleHAiOjE1MzE4MzMwNjUsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.bfIL8fLU3ubB5N_QO-ZbBhQfolMzAqvigl099XS4ZKc
+Connection: close
+Request body:
+
+========================================
+2018-07-17 19:41:07 
+::1 GET /synergix/pos/public-api/v1/ticket_statistics/subcategories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzE4MzEyNjUsImp0aSI6InB5U2lWRkIzZjFGNThQa3RYWllRZ00zSE5oVVQzRU82OXVEdWlxc1V0Z2c9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTMxODMxMjY1LCJleHAiOjE1MzE4MzMwNjUsImRhdGEiOnsidXNlcm5hbWUiOiJtYXJpbyIsInBhc3N3b3JkIjoiZGZlYjliMDFlOTMxZWI2ODEzOTUyODQ4OGEwNDVlN2ViNjM3YWFjNiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.bfIL8fLU3ubB5N_QO-ZbBhQfolMzAqvigl099XS4ZKc
+Connection: close
+Request body:
+
+========================================

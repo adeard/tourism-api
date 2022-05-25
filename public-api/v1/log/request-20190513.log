@@ -1,0 +1,40 @@
+2019-05-13 13:52:14 
+::1 GET /tourism/public-api/v1/tourism?tourism_approval_status=2&sort=DESC HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Connection: close
+Request body:
+
+========================================
+2019-05-13 13:54:06 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2019-05-13 13:54:07 
+::1 GET /tourism/public-api/v1/users/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTc3MzA0NDYsImp0aSI6ImRTR3lOTlk3OXFva3g1b0RPRXlPQlhVaUpJb0ZnZGw2alwvY3JUWGg5UnB3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NzczMDQ0NiwiZXhwIjoxNTU3NzMyMjQ2LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.a9MIzR4zDZXx37TjHyyekJIQPGu3XOSfLMaFCy5VUK0
+Connection: close
+Request body:
+
+========================================
+2019-05-13 13:54:07 
+::1 GET /tourism/public-api/v1/tourism?tourism_approval_status=2&sort=DESC HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTc3MzA0NDYsImp0aSI6ImRTR3lOTlk3OXFva3g1b0RPRXlPQlhVaUpJb0ZnZGw2alwvY3JUWGg5UnB3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTU1NzczMDQ0NiwiZXhwIjoxNTU3NzMyMjQ2LCJkYXRhIjp7InVzZXJuYW1lIjoiYWRlIiwicGFzc3dvcmQiOiJiNzAxNjZkMjM1OWU1NWZmMzQ4NGY1ZDcwMjBjNzBkODZkODkwNzk2IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.a9MIzR4zDZXx37TjHyyekJIQPGu3XOSfLMaFCy5VUK0
+Connection: close
+Request body:
+
+========================================

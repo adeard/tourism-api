@@ -1,0 +1,21 @@
+2018-07-30 17:43:20 
+::1 POST /tourism/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 25
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=ade&password=ade
+========================================
+2018-07-30 17:43:22 
+::1 GET /tourism/public-api/v1/users/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MzI5NDc0MDAsImp0aSI6ImxvaGtVZjVIXC84VmNLZVRjMGdrVUxBcnFXSTNrWk9cL21mb21XcXVRK0ptTT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MzI5NDc0MDAsImV4cCI6MTUzMjk0OTIwMCwiZGF0YSI6eyJ1c2VybmFtZSI6ImFkZSIsInBhc3N3b3JkIjoiYjcwMTY2ZDIzNTllNTVmZjM0ODRmNWQ3MDIwYzcwZDg2ZDg5MDc5NiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.wXN1cvFDSEQflaMQzgzYFKwAOil1sfCh5j7skMOB2dM
+Connection: close
+Request body:
+
+========================================

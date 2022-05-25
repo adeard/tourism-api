@@ -1,0 +1,1408 @@
+2018-04-25 08:45:25 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:45:26 
+::1 GET /synergix-takaful/public-api/v1/users/1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:45:26 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=7 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:45:31 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:45:31 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:47:20 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=yusovm&password=yusovm
+========================================
+2018-04-25 08:47:21 
+::1 GET /synergix-takaful/public-api/v1/users/40 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA4NDAsImp0aSI6IjVJcnZCeHphem0xK2ZNTTlRNXQ5Q2pacXp2RGNQWUhQTkJPWVFlQUdTNms9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIwODQwLCJleHAiOjE1MjQ2MjI2NDAsImRhdGEiOnsidXNlcm5hbWUiOiJ5dXNvdm0iLCJwYXNzd29yZCI6IjY3ZGZlNDY0Mzg1NzkwOWUxNzk3ZmRmMjEzZjllZTMwZTFiYmZmZDMiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.s1uau-YVikETKuW2mx1hKnxMm15MPWBd24B-t60ExGU
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:47:21 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA4NDAsImp0aSI6IjVJcnZCeHphem0xK2ZNTTlRNXQ5Q2pacXp2RGNQWUhQTkJPWVFlQUdTNms9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIwODQwLCJleHAiOjE1MjQ2MjI2NDAsImRhdGEiOnsidXNlcm5hbWUiOiJ5dXNvdm0iLCJwYXNzd29yZCI6IjY3ZGZlNDY0Mzg1NzkwOWUxNzk3ZmRmMjEzZjllZTMwZTFiYmZmZDMiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.s1uau-YVikETKuW2mx1hKnxMm15MPWBd24B-t60ExGU
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:47:22 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA4NDAsImp0aSI6IjVJcnZCeHphem0xK2ZNTTlRNXQ5Q2pacXp2RGNQWUhQTkJPWVFlQUdTNms9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIwODQwLCJleHAiOjE1MjQ2MjI2NDAsImRhdGEiOnsidXNlcm5hbWUiOiJ5dXNvdm0iLCJwYXNzd29yZCI6IjY3ZGZlNDY0Mzg1NzkwOWUxNzk3ZmRmMjEzZjllZTMwZTFiYmZmZDMiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.s1uau-YVikETKuW2mx1hKnxMm15MPWBd24B-t60ExGU
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:47:22 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA4NDAsImp0aSI6IjVJcnZCeHphem0xK2ZNTTlRNXQ5Q2pacXp2RGNQWUhQTkJPWVFlQUdTNms9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIwODQwLCJleHAiOjE1MjQ2MjI2NDAsImRhdGEiOnsidXNlcm5hbWUiOiJ5dXNvdm0iLCJwYXNzd29yZCI6IjY3ZGZlNDY0Mzg1NzkwOWUxNzk3ZmRmMjEzZjllZTMwZTFiYmZmZDMiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.s1uau-YVikETKuW2mx1hKnxMm15MPWBd24B-t60ExGU
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:49:05 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_spv&password=bs_spv
+========================================
+2018-04-25 08:49:06 
+::1 GET /synergix-takaful/public-api/v1/users/4 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA5NDUsImp0aSI6InJ1UUhCWGJJQ0NsWmZqbFk0VEFLVFNMRmRhNGdMOG43OStcL1N4STBrMDlFPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDk0NSwiZXhwIjoxNTI0NjIyNzQ1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfc3B2IiwicGFzc3dvcmQiOiI3NjcxMTQ5ZTkwMTIzMGI5YzM5MDUyZDczMzU4ZGQ2ZmNmNWY4ZDk4IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.wHR-VX5jzuTXlQ_e6h99ej2aAi2Xjxes2c2Z9gR2ZNg
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:49:06 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=3 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA5NDUsImp0aSI6InJ1UUhCWGJJQ0NsWmZqbFk0VEFLVFNMRmRhNGdMOG43OStcL1N4STBrMDlFPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDk0NSwiZXhwIjoxNTI0NjIyNzQ1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfc3B2IiwicGFzc3dvcmQiOiI3NjcxMTQ5ZTkwMTIzMGI5YzM5MDUyZDczMzU4ZGQ2ZmNmNWY4ZDk4IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.wHR-VX5jzuTXlQ_e6h99ej2aAi2Xjxes2c2Z9gR2ZNg
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:49:07 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA5NDUsImp0aSI6InJ1UUhCWGJJQ0NsWmZqbFk0VEFLVFNMRmRhNGdMOG43OStcL1N4STBrMDlFPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDk0NSwiZXhwIjoxNTI0NjIyNzQ1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfc3B2IiwicGFzc3dvcmQiOiI3NjcxMTQ5ZTkwMTIzMGI5YzM5MDUyZDczMzU4ZGQ2ZmNmNWY4ZDk4IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.wHR-VX5jzuTXlQ_e6h99ej2aAi2Xjxes2c2Z9gR2ZNg
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:49:07 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA5NDUsImp0aSI6InJ1UUhCWGJJQ0NsWmZqbFk0VEFLVFNMRmRhNGdMOG43OStcL1N4STBrMDlFPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDk0NSwiZXhwIjoxNTI0NjIyNzQ1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfc3B2IiwicGFzc3dvcmQiOiI3NjcxMTQ5ZTkwMTIzMGI5YzM5MDUyZDczMzU4ZGQ2ZmNmNWY4ZDk4IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.wHR-VX5jzuTXlQ_e6h99ej2aAi2Xjxes2c2Z9gR2ZNg
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:15 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 32
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_spv&password=bs_spvb
+========================================
+2018-04-25 08:54:15 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 10
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+password=0
+========================================
+2018-04-25 08:54:15 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 32
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_spv&password=bs_spvb
+========================================
+2018-04-25 08:54:21 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_spv&password=bs_spv
+========================================
+2018-04-25 08:54:22 
+::1 GET /synergix-takaful/public-api/v1/users/4 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:23 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=3&order=code&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:23 
+::1 GET /synergix-takaful/public-api/v1/ticket_statistics HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:23 
+::1 GET /synergix-takaful/public-api/v1/ticket_statistics/departments HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:23 
+::1 GET /synergix-takaful/public-api/v1/ticket_statistics/categories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:23 
+::1 GET /synergix-takaful/public-api/v1/ticket_statistics/subcategories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:29 
+::1 GET /synergix-takaful/public-api/v1/users?limit=20&order=fullname&page= HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:29 
+::1 GET /synergix-takaful/public-api/v1/user_levels/active HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:30 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:54:30 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:55:30 
+::1 GET /synergix-takaful/public-api/v1/ticket_categories?product_type_id=2&ticket_type_id=6&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:55:40 
+::1 GET /synergix-takaful/public-api/v1/ticket_subcategories?ticket_category_id=41&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:55:46 
+::1 GET /synergix-takaful/public-api/v1/customers?order=id&sort=desc&limit=10 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:55:50 
+::1 POST /synergix-takaful/public-api/v1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 386
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+media_id=&contact_type_id=2&ticket_source_id=3&product_type_id=2&ticket_category_id=41&ticket_subcategory_id=186&ticket_type_id=6&department_id=13&create_date=2018-04-25+08%3A55%3A50&create_user_id=4&open_date=2018-04-25+08%3A55%3A50&open_user_id=4&ticket_detail=tes&ticket_solution=tes&customer_id=77&sla=2&ticket_status_id=5&close_date=2018-04-25+08%3A55%3A50&close_user_id=4&is_fcr=1
+========================================
+2018-04-25 08:55:50 
+::1 GET /synergix-takaful/public-api/v1/tickets/62 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:55:51 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1804250034 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:55:59 
+::1 GET /synergix-takaful/public-api/v1/tickets/62/ticket_attachments?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:56:01 
+::1 GET /synergix-takaful/public-api/v1/tickets/62/ticket_histories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:56:02 
+::1 GET /synergix-takaful/public-api/v1/media_tickets?ticket_id=62&order=created&sort=asc HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:56:04 
+::1 GET /synergix-takaful/public-api/v1/tickets/62/ticket_locations HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:56:23 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:56:23 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:58:00 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:58:00 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200&ticket_no=1804080297 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:58:03 
+::1 GET /synergix-takaful/public-api/v1/customers/57 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:58:05 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:58:05 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&ticket_no=1804080297 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:58:36 
+::1 POST /synergix-takaful/public-api/v1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 332
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+media_id=3&contact_type_id=1&ticket_source_id=3&product_type_id=1&ticket_category_id=47&ticket_subcategory_id=207&ticket_priority_id=1&ticket_type_id=7&department_id=13&create_date=2018-04-25+08%3A58%3A36&create_user_id=1&open_date=2018-04-25+08%3A58%3A36&open_user_id=1&ticket_detail=dignity&customer_id=57&sla=2&ticket_status_id=1
+========================================
+2018-04-25 08:58:37 
+::1 GET /synergix-takaful/public-api/v1/tickets/63 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:58:38 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1804250035 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:58:50 
+::1 GET /synergix-takaful/public-api/v1/media_tickets?ticket_id=63&order=created&sort=asc HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:05 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:06 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:13 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:13 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&ticket_status_id=5 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:21 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:21 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&ticket_status_id=5&page=2 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:24 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1804250034 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:27 
+::1 GET /synergix-takaful/public-api/v1/tickets/62/ticket_attachments?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:31 
+::1 GET /synergix-takaful/public-api/v1/tickets/63/ticket_attachments?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:41 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:41 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjA3MjUsImp0aSI6IktUUkZablhoQ3hmeDhvbUczT2VMTVZIXC92aHVkUDU1RUpZcCtZalVFcXdrPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMDcyNSwiZXhwIjoxNTI0NjIyNTI1LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.9ojSR8waVMjlOEdjHkCE0cz3iV0cWkrylko2BgMoDZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:41 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:42 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODEsImp0aSI6IkpzVFhkWlRMZVFtdm5MMXlrOVdrVU1Mdjh6dE1DVHhIUURERng5WFlVdms9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTgxLCJleHAiOjE1MjQ2MjMzODEsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.8m_b2xEp9E_vX3Zg_35F_5zqpaTT5ufMgS5LGd0ZWUg
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:42 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:43 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODIsImp0aSI6IitWOStRd3NmdUVmZzdnMzQ5VzJ4Q0gweFZRbUhkMFZMSHYxNE15M0FRQ3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTgyLCJleHAiOjE1MjQ2MjMzODIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.y4jkklv8_C5gXPrrRc1brRryeGh13pOMhzoLRE54raE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:43 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODIsImp0aSI6IitWOStRd3NmdUVmZzdnMzQ5VzJ4Q0gweFZRbUhkMFZMSHYxNE15M0FRQ3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTgyLCJleHAiOjE1MjQ2MjMzODIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.y4jkklv8_C5gXPrrRc1brRryeGh13pOMhzoLRE54raE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:43 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODIsImp0aSI6IitWOStRd3NmdUVmZzdnMzQ5VzJ4Q0gweFZRbUhkMFZMSHYxNE15M0FRQ3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTgyLCJleHAiOjE1MjQ2MjMzODIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.y4jkklv8_C5gXPrrRc1brRryeGh13pOMhzoLRE54raE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:43 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:45 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODQsImp0aSI6IlV3RzVMMUk5bU0zT1lkWmoxcU1YZHFcL20zNHVidFB3Q2JJMEtnRkFuaTdvPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMTU4NCwiZXhwIjoxNTI0NjIzMzg0LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.-FJA6nROrovPq5QDF7s-8XHShdnR_sv6lIrSnl_r_ok
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:45 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:46 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODUsImp0aSI6Im5kNzUyTVU3K1pHRlpVYjB5TEwyQzljRno3VUdUWTRMVFJQdDlNa3g1ajA9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTg1LCJleHAiOjE1MjQ2MjMzODUsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.GIJ6GjTIODw37-IKd4LSdAriZaruUh4koeoNdD7TiGI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:46 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODUsImp0aSI6Im5kNzUyTVU3K1pHRlpVYjB5TEwyQzljRno3VUdUWTRMVFJQdDlNa3g1ajA9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTg1LCJleHAiOjE1MjQ2MjMzODUsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.GIJ6GjTIODw37-IKd4LSdAriZaruUh4koeoNdD7TiGI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:46 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODUsImp0aSI6Im5kNzUyTVU3K1pHRlpVYjB5TEwyQzljRno3VUdUWTRMVFJQdDlNa3g1ajA9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTg1LCJleHAiOjE1MjQ2MjMzODUsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.GIJ6GjTIODw37-IKd4LSdAriZaruUh4koeoNdD7TiGI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:46 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:47 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODYsImp0aSI6Ik83Q3FUdEd5RkY5WngySnJaRFBMdmIwZ2RGTlNPamEwWEQ5SlFkUjFDMlE9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTg2LCJleHAiOjE1MjQ2MjMzODYsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.Wqpb7krjKz0tPW6rlDmpUY_o4O_-BmQBIwt2LyuyAm4
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:47 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:48 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:48 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:48 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODcsImp0aSI6IjdXRWg2alJXemZmNm5QVXNMZitUbXl0YnNaSHdDdUYxXC9YT3JsZjdNektRPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMTU4NywiZXhwIjoxNTI0NjIzMzg3LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.e4e582XG4l29hde_n8aYDuybpIgTBSD-s_FrDCkGyiQ
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:48 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODcsImp0aSI6IjdXRWg2alJXemZmNm5QVXNMZitUbXl0YnNaSHdDdUYxXC9YT3JsZjdNektRPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMTU4NywiZXhwIjoxNTI0NjIzMzg3LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.e4e582XG4l29hde_n8aYDuybpIgTBSD-s_FrDCkGyiQ
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:49 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODcsImp0aSI6IjdXRWg2alJXemZmNm5QVXNMZitUbXl0YnNaSHdDdUYxXC9YT3JsZjdNektRPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDYyMTU4NywiZXhwIjoxNTI0NjIzMzg3LCJkYXRhIjp7InVzZXJuYW1lIjoiYnNfYWRtaW4iLCJwYXNzd29yZCI6IjJlNGY2M2M5MDg2MWE3MTE1NWQ5NzNkMzA4MmQyZGQ4MGJkMDUwMmYiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.e4e582XG4l29hde_n8aYDuybpIgTBSD-s_FrDCkGyiQ
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:49 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:50 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1ODksImp0aSI6IlZYcHloXC9DS0Z3VFhCRFd4MmtcL0lFeHg2M0t3RjRuMXRwSWRnZWh5UFliUT0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1MjQ2MjE1ODksImV4cCI6MTUyNDYyMzM4OSwiZGF0YSI6eyJ1c2VybmFtZSI6ImJzX2FkbWluIiwicGFzc3dvcmQiOiIyZTRmNjNjOTA4NjFhNzExNTVkOTczZDMwODJkMmRkODBiZDA1MDJmIiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.viQqbP9HY5hT5_lNlzqGaVF52SzY4tL3wYfCxeUuenw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:50 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:51 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTAsImp0aSI6InJLWVk4NUhzb0pmSDM0V015NW9zeFpWdlZwT2xOWDVXMjBxNE5JV1YrQTA9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkwLCJleHAiOjE1MjQ2MjMzOTAsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.R6dJYbNT4fRlHp8G4HoqIvdBsAgpVZ4x5iuD06-WtZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:51 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTAsImp0aSI6InJLWVk4NUhzb0pmSDM0V015NW9zeFpWdlZwT2xOWDVXMjBxNE5JV1YrQTA9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkwLCJleHAiOjE1MjQ2MjMzOTAsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.R6dJYbNT4fRlHp8G4HoqIvdBsAgpVZ4x5iuD06-WtZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:51 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTAsImp0aSI6InJLWVk4NUhzb0pmSDM0V015NW9zeFpWdlZwT2xOWDVXMjBxNE5JV1YrQTA9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkwLCJleHAiOjE1MjQ2MjMzOTAsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.R6dJYbNT4fRlHp8G4HoqIvdBsAgpVZ4x5iuD06-WtZ8
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:51 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:52 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTEsImp0aSI6InM5NFFZQW5ZMDhSVHRWdTFVckRGRnhSNzZrNWx1V3dCQ0lMVSt1Qmd6TVk9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkxLCJleHAiOjE1MjQ2MjMzOTEsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.lE4LW2lkchkk4NFm3sEYdlmzIvAo2S4oXfWhsFHPLsE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:52 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-04-25 08:59:53 
+::1 GET /synergix-takaful/public-api/v1/ticket_attachments/93/file HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:54 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:54 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200&ticket_status_id=4 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:58 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 08:59:59 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&ticket_status_id=4 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:02 
+::1 GET /synergix-takaful/public-api/v1/tickets/63/ticket_histories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:02 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1804170026 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:07 
+::1 GET /synergix-takaful/public-api/v1/tickets/54/ticket_attachments?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:10 
+::1 GET /synergix-takaful/public-api/v1/tickets/63 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:11 
+::1 PUT /synergix-takaful/public-api/v1/tickets/63 HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 73
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+ticket_status_id=3&process_date=2018-04-25+09%3A00%3A11&process_user_id=1
+========================================
+2018-04-25 09:00:11 
+::1 POST /synergix-takaful/public-api/v1/ticket_histories HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 53
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+ticket_id=63&ticket_status_id=3&user_id=1&note=submit
+========================================
+2018-04-25 09:00:15 
+::1 POST /synergix-takaful/public-api/v1/ticket_attachments HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 879756
+Content-Type: multipart/form-data; boundary="7ca4a062fd112daa0f0bd4c5eb54f880"
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+User-Agent: CakePHP
+Request body:
+
+========================================
+2018-04-25 09:00:16 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1804250035 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:17 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1804170026 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:18 
+::1 GET /synergix-takaful/public-api/v1/tickets/63/ticket_histories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:19 
+::1 GET /synergix-takaful/public-api/v1/tickets/54/ticket_attachments?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjEyNjEsImp0aSI6ImRNV0Y2VWwzenZiWEFMK3FwcXl6VTJjUEw2UlZpcHdqWktDT1UxSlgzU3M9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxMjYxLCJleHAiOjE1MjQ2MjMwNjEsImRhdGEiOnsidXNlcm5hbWUiOiJic19zcHYiLCJwYXNzd29yZCI6Ijc2NzExNDllOTAxMjMwYjljMzkwNTJkNzMzNThkZDZmY2Y1ZjhkOTgiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.iW9L4FI6H2pRxFW-NNL1pI8RIPtCmUIOVxr_bzpDAjw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:32 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:32 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:39 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1804250035 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:41 
+::1 GET /synergix-takaful/public-api/v1/media_tickets?ticket_id=63&order=created&sort=asc HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:00:51 
+::1 GET /synergix-takaful/public-api/v1/emails/335 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:01:40 
+::1 POST /synergix-takaful/public-api/v1/emails HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 90260
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+mail_date=2018-04-25+09%3A01%3A40&email_from=cs_atk%40takaful.com&email_to=andrian%40jsm.co.id&email_cc=yusoff%40jsm.co.id&subject=Re%3A+FW%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26+ACW&content=test+reply+email+via+ticket+media+history%0D%0A%0D%0A%0D%0A-----+Original+Message+-----%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ATest+reply+email+2%0D%0A%26nbsp%3B%0D%0AM+.+Andrian+Arifin%0D%0A%0D%0APT.+Jaring+Synergi+Mandiri%0D%0AGedung+JSM+Jl.+Cideng+Barat+No.76%2C+Jakarta+10160%0D%0AOffice+%3A+021-345+7449+%0D%0AMobile+%3A+0856+10+350+74%0D%0AEmail+%3A+andrian%40jsm.co.id+Website+%3A+www.jsm.co.id%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Ronah+%5Bmailto%3Aronah%40jsm.co.id%5D+%0D%0ASent%3A+23+April+2018+17%3A32%0D%0ATo%3A+%27frans%27+%26lt%3Bfrans%40jsm.co.id%26gt%3B%0D%0ACc%3A+%27Tiwi+Prihatini%27+%26lt%3Btiwi.prihatini%40jsm.co.id%26gt%3B%3B+%27Cut+Liza%27+%26lt%3Bcut.liza%40jsm.co.id%26gt%3B%3B+%27didit%27+%26lt%3Bdidit%40jsm.co.id%26gt%3B%3B+business-support%40jsm.co.id%3B+business-analyst%40jsm.co.id%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Bang+Frans%2C%0D%0A%26nbsp%3B%0D%0AUntuk+ACW+delay+terakhir+tgl+9-4-2018+sebesar+12+detik+%26amp%3B+sudah+diajukan+redmine+10832%2C+kemudian+hari+ini+saat+dilakukan+test+call+ditemukan+ASA+yang+kembali+delay+yaitu+sebesar+6+detik+dan+sedang+dilakukan+pengecekan+kembali+oleh+Tim+IT.+Mohon+bantuannya+kembali+agar+dilakukan+pengecekan+lebih+lanjut+ya.%0D%0A%26nbsp%3B%0D%0ADemikian+informasinya%2C+terima+kasih.%0D%0A%26nbsp%3B%0D%0ASalam%0D%0A%26nbsp%3B%0D%0ARonah+%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+frans+%5Bmailto%3Afrans%40jsm.co.id%5D+%0D%0ASent%3A+Monday%2C+April+23%2C+2018+3%3A37+PM%0D%0ATo%3A+%27Ronah+%27%0D%0ACc%3A+%27Tiwi+Prihatini%27%3B+%27Cut+Liza%27%3B+%27didit%27%3B+business-support%40jsm.co.id%3B+business-analyst%40jsm.co.id%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Ronah%2C%0D%0A%26nbsp%3B%0D%0ASelain+yang+dilaporkan+sebelumnya+tgl+5+%26amp%3B+12+April18%2C+apakah+masih+ada+delay+pada+saat+hangup+telp+%3F%0D%0AHari+ini+di+test+telp+lagi+deh+di+produksi.%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ATerima+kasih%0D%0ASalam%2C%0D%0A%26nbsp%3B%0D%0AFrans%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Ronah+%5Bmailto%3Aronah%40jsm.co.id%5D+%0D%0ASent%3A+23+April+2018+15%3A05%0D%0ATo%3A+%27frans%27%0D%0ACc%3A+%27Tiwi+Prihatini%27%3B+%27Cut+Liza%27%3B+%27didit%27%3B+business-support%40jsm.co.id%3B+business-analyst%40jsm.co.id%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Bang+Frans%2C%0D%0A%26nbsp%3B%0D%0AMohon+updatenya+untuk+hasil+investigasi+terkait+ACW+delay+di+Unit+Agris+sejauh+ini+bagaimana+ya+bang%3F%0D%0A%26nbsp%3B%0D%0ADemikian+dan+terima+kasih.%0D%0A%26nbsp%3B%0D%0ASalam%0D%0A%26nbsp%3B%0D%0ARonah+%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+frans+%5Bmailto%3Afrans%40jsm.co.id%5D+%0D%0ASent%3A+Friday%2C+April+13%2C+2018+10%3A28+AM%0D%0ATo%3A+%27Ronah+%27%0D%0ACc%3A+%27Tiwi+Prihatini%27%3B+%27Cut+Liza%27%3B+%27didit%27%3B+business-support%40jsm.co.id%3B+business-analyst%40jsm.co.id%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Ronah%2C%0D%0A%26nbsp%3B%0D%0ABaik+akan+coba+diivestigasikan+dulu+sesuai+laporan+dari+Ronah+yah.%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ATerima+kasih%0D%0ASalam%2C%0D%0A%26nbsp%3B%0D%0AFrans%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Ronah+%5Bmailto%3Aronah%40jsm.co.id%5D+%0D%0ASent%3A+13+April+2018+9%3A28%0D%0ATo%3A+%27frans%27%0D%0ACc%3A+%27Tiwi+Prihatini%27%3B+%27Cut+Liza%27%3B+%27didit%27%3B+business-support%40jsm.co.id%3B+business-analyst%40jsm.co.id%0D%0ASubject%3A+FW%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Bang+Frans%2C%0D%0A%26nbsp%3B%0D%0AMohon+bantuannya+kembali+terkait+ASA+di+Unit+Agris+pasca+update+ke+versi+29%2C+beberapa+hari+ini+masih+terjadi+SQL+saat+pick+up+%28+tgl+5+%26amp%3B+12+April18%29+dan+kasusnya+bertambah+yaitu+ACW+nya+delay+saat+Agent+akan+hang+up+tlp+hingga+durasi+2+menit+dan+karena+aplikasi+SQL+tidak+bisa+di+hang+up+sehingga+dilakukan+Log+out+paksa+aplikasi+CC+dan+berdampak+kepada+data+call+yang+hilang+%28tidak+dapat+di+save%29.+Terlampir+SS+ya+bang%2C+mohon+bantu+investigasi+kembali.%0D%0A%26nbsp%3B%0D%0ADemikian+informasinya%2C+atas+perhatiannya+saya+ucapkan+terima+kasih.%0D%0A%26nbsp%3B%0D%0ASalam%0D%0A%26nbsp%3B%0D%0ARonah+%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+irwan.surya+%5Bmailto%3Airwan.surya%40jsm.co.id%5D+%0D%0ASent%3A+Monday%2C+April+02%2C+2018+2%3A25+PM%0D%0ATo%3A+%27Tiwi%27%3B+%27Ronah+%27%3B+%27Cut+Liza%27%3B+business-support%40jsm.co.id%3B+business-analyst%40jsm.co.id%0D%0ACc%3A+%27Fransiskus+Manulang%27%3B+%27Novian+Hendrianto%27%3B+andrian%40jsm.co.id%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Bu+Tiwi+%2C%0D%0A%26nbsp%3B%0D%0AMohon+konfirmasinya+kembali+%2C+%0D%0Aini+untuk+masalah+ASA+nya+%2C+seperti+diinfokan+oleh+Bu+Ronah+di+email+sebelumnya+%2C%0D%0APada+update+Versi+29+%2C+sudah+tidak+terjadi+kembali+Sql+pada+saat+pickup+Call+.+%0D%0A%26nbsp%3B%0D%0ATerima+kasih+%0D%0ASalam%2C%0D%0AIrwan+%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Tiwi+%5Bmailto%3Atiwi.prihatini%40jsm.co.id%5D+%0D%0ASent%3A+02+April+2018+12%3A33%0D%0ATo%3A+%27Ronah+%27+%26lt%3Bronah%40jsm.co.id%26gt%3B%3B+%27Cut+Liza%27+%26lt%3Bcut.liza%40jsm.co.id%26gt%3B%3B+business-support%40jsm.co.id%3B+business-analyst%40jsm.co.id%0D%0ACc%3A+%27Fransiskus+Manulang%27+%26lt%3Bfrans%40jsm.co.id%26gt%3B%3B+%27Novian+Hendrianto%27+%26lt%3Bnovian%40jsm.co.id%26gt%3B%3B+andrian%40jsm.co.id%3B+Irwan+Surya+%26lt%3Birwan.surya%40jsm.co.id%26gt%3B%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0AImportance%3A+High%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Team+BS+%26amp%3B+BD+%2C%0D%0A%26nbsp%3B%0D%0AMohon+di+bantu+untuk+solusinya+%2C+karena+target+ASA+kami+2+second+%2C+please+ASAP.%0D%0A%26nbsp%3B%0D%0AThanks+%26amp%3B+Regards%0D%0A%26nbsp%3B%0D%0A%0D%0ATiwi+Prihatini%0D%0A%26nbsp%3B%0D%0A%26nbsp%3BPT.+Jaring+Synergi+Mandiri%0D%0AJalan+Cideng+Barat+No.76%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B+%26nbsp%3B%26nbsp%3B+%7C%26nbsp%3B%26nbsp%3B+Hp.+%2B6285781415011%26nbsp%3B+%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%7C%26nbsp%3B+Fax.+0213457658%0D%0AJakarta+Pusat%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B+%7C%26nbsp%3B%26nbsp%3B+Off.+0213457449+%23+5533%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B+%26nbsp%3B%26nbsp%3B+%26nbsp%3B+%7C%26nbsp%3B+E-mail%3A+tiwi.prihatini%40jsm.co.id%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Ronah+%5Bmailto%3Aronah%40jsm.co.id%5D+%0D%0ASent%3A+Monday%2C+April+2%2C+2018+12%3A03+PM%0D%0ATo%3A+%27Cut+Liza%27%0D%0ACc%3A+%27Tiwi+Prihatini%27%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Mba+Icha%2C%0D%0A%26nbsp%3B%0D%0ASejauh+ini+dengan+versi+yang+terbaru+ketika+pick+up+tlp+tidak+terjadi+SQL+namun+ketika+CSR+akan+hang+up+tlp+malah+terjadi+SQL+sekitar+3-5+detik+mba%2C+tapi+tidak+selalu+terjadi+hanya+beberapa+kali+saja+dan+itupun+dengan+kondisi+history+call+yang+tidak+dimunculkan.%0D%0A%26nbsp%3B%0D%0ADemikian+informasinya%2C+atas+perhatiannya+saya+ucapkan+terima+kasih.%0D%0A%26nbsp%3B%0D%0ASalam%0D%0A%26nbsp%3B%0D%0ARonah%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Cut+Liza+%5Bmailto%3Acut.liza%40jsm.co.id%5D+%0D%0ASent%3A+Monday%2C+April+02%2C+2018+11%3A51+AM%0D%0ATo%3A+Ronah+%0D%0ACc%3A+Tiwi%0D%0ASubject%3A+FW%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Ronah%2C+%0D%0A%26nbsp%3B%0D%0AApakah+ada+kendala+dengan+versi+yang+terbaru+ini+serta+dengan+adanya+penambahan+fiture+terbaru+%3F%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0ADemikian+dan+terimakasih%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ABest+Regards%2C%0D%0ACut+Liza+Yunita%0D%0A%0D%0APT+Jaring+Synergi+Mandiri%0D%0A%26nbsp%3B%0D%0AJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%0D%0ATelp+%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%0D%0AE-mail%3A+cut.liza%40jsm.co.id+%7C+www.jsm.co.id%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+frans+%5Bmailto%3Afrans%40jsm.co.id%5D+%0D%0ASent%3A+Thursday%2C+March+29%2C+2018+6%3A10+PM%0D%0ATo%3A+%27Cut+Liza%27%3B+%27Didit%27%3B+business-support%40jsm.co.id%3B+%27Oka%27%3B+it.support%40jsm.co.id%0D%0ACc%3A+%27Ronah%27%3B+%27Tiwi%27%3B+firman%40jsm.co.id%3B+aan%40jsm.co.id%3B+business-analyst%40jsm.co.id%3B+novian%40jsm.co.id%3B+%27Rahmat+Santoso%27%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Icha%2C%0D%0A%26nbsp%3B%0D%0AUpdate+pada+aplikasi+sudah+dilakukan+yah+pada+show+history+call+dan+history+ticket+saat+pick+up+call%2C+csr+bisa+menekan+button+show+history+call+%26amp%3B+%26nbsp%3Bbutton+show+history+ticket.%0D%0AVersi+terbaru+pada+aplikasi+ada+di+29.%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ATerima+kasih%0D%0ASalam%2C%0D%0A%26nbsp%3B%0D%0AFrans%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Cut+Liza+%5Bmailto%3Acut.liza%40jsm.co.id%5D+%0D%0ASent%3A+28+March+2018+14%3A15%0D%0ATo%3A+%27frans%27%3B+%27Didit%27%3B+business-support%40jsm.co.id%3B+%27Oka%27%3B+it.support%40jsm.co.id%0D%0ACc%3A+%27Ronah%27%3B+%27Tiwi%27%3B+firman%40jsm.co.id%3B+aan%40jsm.co.id%3B+business-analyst%40jsm.co.id%3B+novian%40jsm.co.id%3B+%27Rahmat+Santoso%27%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Frans%2C+%0D%0A%26nbsp%3B%0D%0AThanks+ya+untuk+supportnya.+Serta+penjelasannya.+Kami+tunggu+kabar+baiknya+di+tanggal+Kamis+29+Maret+2018.+%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0ADemikian+dan+terimakasih%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ABest+Regards%2C%0D%0ACut+Liza+Yunita%0D%0A%0D%0APT+Jaring+Synergi+Mandiri%0D%0A%26nbsp%3B%0D%0AJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%0D%0ATelp+%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%0D%0AE-mail%3A+cut.liza%40jsm.co.id+%7C+www.jsm.co.id%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+frans+%5Bmailto%3Afrans%40jsm.co.id%5D+%0D%0ASent%3A+Wednesday%2C+March+28%2C+2018+9%3A50+AM%0D%0ATo%3A+%27Cut+Liza%27%3B+%27Didit%27%3B+business-support%40jsm.co.id%3B+%27Oka%27%3B+it.support%40jsm.co.id%0D%0ACc%3A+%27Ronah%27%3B+%27Tiwi%27%3B+firman%40jsm.co.id%3B+aan%40jsm.co.id%3B+business-analyst%40jsm.co.id%3B+novian%40jsm.co.id%3B+%27Rahmat+Santoso%27%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Bu+Icha+J%2C%0D%0A%26nbsp%3B%0D%0AStep+by+step+dulu+yah%2C+ke+Bank+Agris+dulu+sesuai+tema+email%2C+baru+selanjutnya+langsung+ke+aplikasi+sejenis+di+project+lainnya.%0D%0A%26nbsp%3B%0D%0ATerima+kasih%0D%0ASalam%2C%0D%0A%26nbsp%3B%0D%0AFrans%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Cut+Liza+%5Bmailto%3Acut.liza%40jsm.co.id%5D+%0D%0ASent%3A+28+March+2018+9%3A14%0D%0ATo%3A+%27frans%27%3B+%27Didit%27%3B+business-support%40jsm.co.id%3B+%27Oka%27%3B+it.support%40jsm.co.id%0D%0ACc%3A+%27Ronah%27%3B+%27Tiwi%27%3B+firman%40jsm.co.id%3B+aan%40jsm.co.id%3B+business-analyst%40jsm.co.id%3B+novian%40jsm.co.id%3B+%27Rahmat+Santoso%27%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Frans%2C+%0D%0A%26nbsp%3B%0D%0AApakah+ini+berlaku+pada+aplikasi+mana+saja+ya+%3F+apakah+semua+perbankan+%3F%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0ADemikian+dan+terimakasih%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ABest+Regards%2C%0D%0ACut+Liza+Yunita%0D%0A%0D%0APT+Jaring+Synergi+Mandiri%0D%0A%26nbsp%3B%0D%0AJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%0D%0ATelp+%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%0D%0AE-mail%3A+cut.liza%40jsm.co.id+%7C+www.jsm.co.id%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+frans+%5Bmailto%3Afrans%40jsm.co.id%5D+%0D%0ASent%3A+Tuesday%2C+March+27%2C+2018+6%3A26+PM%0D%0ATo%3A+%27Cut+Liza%27%3B+%27Didit%27%3B+business-support%40jsm.co.id%3B+%27Oka%27%3B+it.support%40jsm.co.id%0D%0ACc%3A+%27Ronah%27%3B+%27Tiwi%27%3B+firman%40jsm.co.id%3B+aan%40jsm.co.id%3B+business-analyst%40jsm.co.id%3B+novian%40jsm.co.id%3B+%27Rahmat+Santoso%27%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Icha%2C%0D%0A%26nbsp%3B%0D%0AUntuk+button+search+histori+call+dan+ticket%2C+akan+selesai+di+update+lusa+yah+%28+Kamis+29+Maret+2018+%29+oleh+developer.%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ADemikian+informasinya+Icha.%0D%0A%26nbsp%3B%0D%0ATerima+kasih%0D%0ASalam%2C%0D%0A%26nbsp%3B%0D%0AFrans%0D%0A%0D%0A%0D%0AFrom%3A+Cut+Liza+%5Bmailto%3Acut.liza%40jsm.co.id%5D+%0D%0ASent%3A+27+March+2018+14%3A54%0D%0ATo%3A+%27Didit%27%3B+business-support%40jsm.co.id%3B+%27Oka%27%3B+it.support%40jsm.co.id%3B+frans%40jsm.co.id%0D%0ACc%3A+%27Ronah%27%3B+%27Tiwi%27%3B+firman%40jsm.co.id%3B+aan%40jsm.co.id%3B+business-analyst%40jsm.co.id%3B+novian%40jsm.co.id%0D%0ASubject%3A+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%0D%0AImportance%3A+High%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Mas+Didit%2C+%0D%0A%26nbsp%3B%0D%0ATerimakasih+atas+respon+cepatnya+kepada+kami%2C+ok+Mas+Dit+mohon+dibantu+monitoring+juga+ya+apakah+pernah+memakan+source+yang+tinggi+apa+tidaknya%2C+sehingga+mempengaruhi.%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ADear+Bang+Frans%2C+%0D%0A%26nbsp%3B%0D%0AMenyambung+dengan+pembicaraan+kita+tadi+by+telepon%2C+kami+tunggu+dengan+penambahan+button+search+histori+call+pada+modul+call+detail+agent.+Dan+bisa+di+sampaikan+kepada+kami+berapa+lama+develop+fiture+tersebut%26nbsp%3B+%3F%0D%0ADan+histori+akan+muncul+semua+ketika+agent+lakukan+search+%2C+dan+tanpa+ada+kurang+apapun+pada+data+historinya%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0ADemikian+dan+terimakasih%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ABest+Regards%2C%0D%0ACut+Liza+Yunita%0D%0A%0D%0APT+Jaring+Synergi+Mandiri%0D%0A%26nbsp%3B%0D%0AJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%0D%0ATelp+%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%0D%0AE-mail%3A+cut.liza%40jsm.co.id+%7C+www.jsm.co.id%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Didit+%5Bmailto%3Adidit%40jsm.co.id%5D+%0D%0ASent%3A+Tuesday%2C+March+27%2C+2018+1%3A01+PM%0D%0ATo%3A+Cut+Liza%3B+business-support%40jsm.co.id%3B+Oka%3B+it.support%40jsm.co.id%0D%0ACc%3A+Ronah%3B+Tiwi%3B+firman%40jsm.co.id%3B+aan%40jsm.co.id%0D%0ASubject%3A+Re%3A+Problem+ASA+di+Unit+CC+Agris+%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Team%0D%0A%26nbsp%3B%0D%0ATerkait+dengan+adanya+kendala+yang+di+alami+oleh+unit+CC+Bank+Agris%2C+dengan+ini+dapat+saya+informasikan+kondisi+server+pada+saat+terjadinya+gangguan+tersebut%2C+%28mohon+maaf+hanya+bisa+dilampirkan+pada+bulan+berjalan%29.+%0D%0A%26nbsp%3B%0D%0ASebagai+informasi%2C+saya+sudah+menginformasikan+untuk+sesegera+mungkin+dilakukan+pengecekan+jaringan+pada+saat+terjadi+gangguan+ASA+tersebut+dengan+jalan+melakukan+ping+ke+server+192.168.0.158.%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0A%0D%0ADidit+Nya+%0D%0APT.+Jaring+Synergi+Mandiri%0D%0AGedung+JSM%2C+5th+Floor%0D%0A%0D%0AJl.+Cideng+Barat+No.76+Jakarta+Pusat+10150%0D%0A%0D%0AFrom%3A+Cut+Liza+%26lt%3Bcut.liza%40jsm.co.id%26gt%3B%0D%0ADate%3A+Tuesday%2C+27+March+2018+12%3A41%0D%0ATo%3A+%26lt%3Bbusiness-support%40jsm.co.id%26gt%3B%2C+Oka+%26lt%3Boka.it%40jsm.co.id%26gt%3B%2C+%22it.support%40jsm.co.id%22+%26lt%3Bit.support%40jsm.co.id%26gt%3B%0D%0ACc%3A+Ronah+%26lt%3Bronah%40jsm.co.id%26gt%3B%2C+Tiwi+%26lt%3Btiwi.prihatini%40jsm.co.id%26gt%3B%2C+Firman+JSM+%26lt%3Bfirman%40jsm.co.id%26gt%3B%2C+Aan+Rudianto+%26lt%3Baan%40jsm.co.id%26gt%3B%0D%0ASubject%3A+FW%3A+Problem+ASA+di+Unit+CC+Agris+%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0ADear+Oka+dan+Tim+Bs%2C+%0D%0A%26nbsp%3B%0D%0AMohon+dibantu+untuk+investigasi+hal+ini%2C+kenapa+sering+terjadi+SQL+pada+aplikasi+CC%2C+Sql+ini+menyebabnya+ASA+di+aplikasi+cukup+tinggi%2C+dan+ini+mempengaruhi+Service+Level+Performaance+CC.+Mohon+diberikan+solusinya+ya+%0D%0A%26nbsp%3B%0D%0AKami+tidak+mengetahui+apakah+ini+dari+jaringan+intra+atau+dari+sisi+aplikasi.%0D%0A%26nbsp%3B%0D%0ADi+tunggu+responnya.%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0ADemikian+dan+terimakasih%0D%0A%26nbsp%3B%0D%0A%26nbsp%3B%0D%0ABest+Regards%2C%0D%0ACut+Liza+Yunita%0D%0A%0D%0APT+Jaring+Synergi+Mandiri%0D%0A%26nbsp%3B%0D%0AJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%0D%0ATelp+%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%0D%0AE-mail%3A+cut.liza%40jsm.co.id+%7C+www.jsm.co.id%0D%0A%26nbsp%3B%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0A%0D%0AFrom%3A+Ronah+%5Bmailto%3Aronah%40jsm.co.id%5D+%0D%0ASent%3A+Tuesday%2C+March+27%2C+2018+11%3A42+AM%0D%0ATo%3A+%27didit%27%0D%0ACc%3A+%27it.support%27%3B+%27Firman%27%3B+%27Cut+Liza%27%3B+%27Tiwi+Prihatini%27%0D%0ASubject%3A+Problem+ASA+di+Unit+CC+Agris+%0D%0A%0D%0A%0D%0A%26nbsp%3B%0D%0ADear+Mas+Didit%2C%0D%0A%26nbsp%3B%0D%0AMohon+bantuan+%26amp%3B+solusinya+untuk+dilakukan+pengecekan+terkait+aplikasi+CC+Agris+yang+sql+saat+pick+up+tlp+sehingga+menyebabkan+ASA+menjadi+besar+dan+ini+sudah+terjadi+beberapa+kali%2C+berikut+terlampir+data+ASA+yang+cukup+tinggi+selama+beberapa+bulan+terakhir.%0D%0A%26nbsp%3B%0D%0ADemikian+informasinya%2C+atas+perhatiannya+saya+ucapkan+terima+kasih.%0D%0A%26nbsp%3B%0D%0ABest+Regards%2C%0D%0ARonah%0D%0ACall+Center+Bank+Agris%0D%0A%0D%0APT.+JARING+SYNERGI+MANDIRI%0D%0AJalan+Cideng+Barat+No.+76+Jakarta+10160%0D%0ATlp.+021-3457449+ext.+3016+%0D%0AE-mail%3A+ronah%40jsm.co.id+%7C+www.jsm.co.id%0D%0A%26nbsp%3B%0D%0A&content_html=%3Cp%3Etest+reply+email+via+%3Cem%3Eticket%3C%2Fem%3E+media+%3Cstrong%3Ehistory%3C%2Fstrong%3E%3Cbr+%2F%3E%3Cbr+%2F%3E%3Cbr+%2F%3E-----+Original+Message+-----%3C%2Fp%3E%0D%0A%3Cp%3E%3C%2Fp%3E%0D%0A%3C%21--+%5Bif+%21mso%5D%3E%3Cstyle%3Ev%5C%3A%2A+%7Bbehavior%3Aurl%28%23default%23VML%29%3B%7D%0D%0Ao%5C%3A%2A+%7Bbehavior%3Aurl%28%23default%23VML%29%3B%7D%0D%0Aw%5C%3A%2A+%7Bbehavior%3Aurl%28%23default%23VML%29%3B%7D%0D%0A.shape+%7Bbehavior%3Aurl%28%23default%23VML%29%3B%7D%0D%0A%3C%2Fstyle%3E%3C%21%5Bendif%5D--%3E%0D%0A%3Cp%3E%3C%2Fp%3E%0D%0A%3C%21--+%5Bif+gte+mso+9%5D%3E%3Cxml%3E%0D%0A%3Co%3Ashapedefaults+v%3Aext%3D%22edit%22+spidmax%3D%221026%22+%2F%3E%0D%0A%3C%2Fxml%3E%3C%21%5Bendif%5D--%3E%3C%21--+%5Bif+gte+mso+9%5D%3E%3Cxml%3E%0D%0A%3Co%3Ashapelayout+v%3Aext%3D%22edit%22%3E%0D%0A%3Co%3Aidmap+v%3Aext%3D%22edit%22+data%3D%221%22+%2F%3E%0D%0A%3C%2Fo%3Ashapelayout%3E%3C%2Fxml%3E%3C%21%5Bendif%5D--%3E%0D%0A%3Cdiv+class%3D%22WordSection1%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3ETest+reply+email+2%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+%27Tekton+Pro+Ext%27%3B+color%3A+%23002060%3B+mso-fareast-language%3A+IN%3B%22%3EM+.+Andrian+Arifin%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+color%3A+%23002060%3B%22%3E%3Cimg+id%3D%22_x0000_i1031%22+src%3D%22cid%3Aimage004.png%4001D3DBD8.F057C860%22+alt%3D%22Description%3A+jsmkecil_%22+width%3D%2281%22+height%3D%2244%22+%2F%3E%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3EPT.+Jaring+Synergi+Mandiri%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3EGed%3C%2Fspan%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3Eung%3C%2Fspan%3E+%3Cspan+lang%3D%22EN-ID%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3EJSM%3C%2Fspan%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3E+Jl.+%3C%2Fspan%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3ECideng+Barat+%3C%2Fspan%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3ENo.%3C%2Fspan%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3E76%3C%2Fspan%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3E%2C+Jakarta+10160%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3EOffice+%3C%2Fspan%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3E%3A+021-345+7449+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3EMobile+%3A+0856+10+350+74%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B+mso-fareast-language%3A+IN%3B%22%3EEmail+%3A+%3Ca+href%3D%22mailto%3Aandrian%40jsm.co.id%22%3Eandrian%40jsm.co.id%3C%2Fa%3E+Website+%3A+%3Ca+href%3D%22http%3A%2F%2Fwww.jsm.co.id%2F%22%3Ewww.jsm.co.id%3C%2Fa%3E%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Ca+name%3D%22_MailEndCompose%22%3E%3C%2Fa%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23E1E1E1+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3EFrom%3A%3C%2Fstrong%3E+Ronah+%5Bmailto%3Aronah%40jsm.co.id%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+23+April+2018+17%3A32%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27frans%27+%26lt%3Bfrans%40jsm.co.id%26gt%3B%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Tiwi+Prihatini%27+%26lt%3Btiwi.prihatini%40jsm.co.id%26gt%3B%3B+%27Cut+Liza%27+%26lt%3Bcut.liza%40jsm.co.id%26gt%3B%3B+%27didit%27+%26lt%3Bdidit%40jsm.co.id%26gt%3B%3B+business-support%40jsm.co.id%3B+business-analyst%40jsm.co.id%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EDear+Bang+Frans%2C%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22I%22+style%3D%22color%3A+%231f497d%3B%22%3EUntuk+ACW+delay+terakhir+tgl+9-4-2018+sebesar+12+detik+%26amp%3B+sudah+diajukan+redmine+10832%2C+kemudian+hari+ini+saat+dilakukan+test+call+ditemukan+ASA+yang+kembali+delay+yaitu+sebesar+%3Cstrong%3E6+detik%3C%2Fstrong%3E+dan+sedang+dilakukan+pengecekan+kembali+oleh+Tim+IT.+Mohon+bantuannya+kembali+agar+dilakukan+pengecekan+lebih+lanjut+ya.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EDemikian+informasinya%2C+terima+kasih.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3ESalam%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3ERonah+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3EFrom%3A%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E+frans+%5B%3Ca+href%3D%22mailto%3Afrans%40jsm.co.id%22%3Emailto%3Afrans%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Monday%2C+April+23%2C+2018+3%3A37+PM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27Ronah+%27%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Tiwi+Prihatini%27%3B+%27Cut+Liza%27%3B+%27didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EDear+Ronah%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ESelain+yang+dilaporkan+sebelumnya+%3Cspan+lang%3D%22IN%22%3Etgl+5+%26amp%3B+12+April18%3C%2Fspan%3E%2C+apakah+masih+ada+delay+pada+saat+hangup+telp+%3F%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EHari+ini+di+test+telp+lagi+deh+di+produksi.%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ETerima+kasih%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ESalam%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EFrans%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23E1E1E1+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3EFrom%3A%3C%2Fstrong%3E+Ronah+%5B%3Ca+href%3D%22mailto%3Aronah%40jsm.co.id%22%3Emailto%3Aronah%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+23+April+2018+15%3A05%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27frans%27%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Tiwi+Prihatini%27%3B+%27Cut+Liza%27%3B+%27didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EDear+Bang+Frans%2C%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EMohon+updatenya+untuk+hasil+investigasi+terkait+ACW+delay+di+Unit+Agris+sejauh+ini+bagaimana+ya+bang%3F%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EDemikian+dan+terima+kasih.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3ESalam%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3ERonah+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3EFrom%3A%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E+frans+%5B%3Ca+href%3D%22mailto%3Afrans%40jsm.co.id%22%3Emailto%3Afrans%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Friday%2C+April+13%2C+2018+10%3A28+AM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27Ronah+%27%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Tiwi+Prihatini%27%3B+%27Cut+Liza%27%3B+%27didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EDear+Ronah%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EBaik+akan+coba+diivestigasikan+dulu+sesuai+laporan+dari+Ronah+yah.%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ETerima+kasih%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ESalam%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EFrans%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23E1E1E1+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3EFrom%3A%3C%2Fstrong%3E+Ronah+%5B%3Ca+href%3D%22mailto%3Aronah%40jsm.co.id%22%3Emailto%3Aronah%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+13+April+2018+9%3A28%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27frans%27%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Tiwi+Prihatini%27%3B+%27Cut+Liza%27%3B+%27didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+FW%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL+%26amp%3B+ACW%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EDear+Bang+Frans%2C%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EMohon+bantuannya+kembali+terkait+ASA+di+Unit+Agris+pasca+update+ke+versi+29%2C+beberapa+hari+ini+masih+terjadi+SQL+saat+pick+up+%28+tgl+5+%26amp%3B+12+April18%29+dan+kasusnya+bertambah+yaitu+%3Cu%3EACW+nya+delay%3C%2Fu%3E+saat+Agent+akan+hang+up+tlp+hingga+durasi+2+menit+dan+karena+aplikasi+SQL+tidak+bisa+di+hang+up+sehingga+dilakukan+Log+out+paksa+aplikasi+CC+dan+berdampak+kepada+data+call+yang+hilang+%28tidak+dapat+di+save%29.+Terlampir+SS+ya+bang%2C+mohon+bantu+investigasi+kembali.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EDemikian+informasinya%2C+atas+perhatiannya+saya+ucapkan+terima+kasih.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3ESalam%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3ERonah+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3EFrom%3A%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E+irwan.surya+%5B%3Ca+href%3D%22mailto%3Airwan.surya%40jsm.co.id%22%3Emailto%3Airwan.surya%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Monday%2C+April+02%2C+2018+2%3A25+PM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27Tiwi%27%3B+%27Ronah+%27%3B+%27Cut+Liza%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Fransiskus+Manulang%27%3B+%27Novian+Hendrianto%27%3B+%3Ca+href%3D%22mailto%3Aandrian%40jsm.co.id%22%3Eandrian%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3EDear+Bu+Tiwi+%2C%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22Msoormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3EMohon+konfirmasinya+kembali+%2C+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3Eini+untuk+masalah+ASA+nya+%2C+seperti+diinfokan+oleh+Bu+Ronah+di+email+sebelumnya+%2C%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3EPada+update+Versi+29+%2C+sudah+tidak+terjadi+kembali+Sql+pada+saat+pickup+Call+.+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3ETerima+kasih+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3ESalam%2C%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3EIrwan+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23E1E1E1+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3EFrom%3A%3C%2Fstrong%3E+Tiwi+%5B%3Ca+href%3D%22mailto%3Atiwi.prihatini%40jsm.co.id%22%3Emailto%3Atiwi.prihatini%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+02+April+2018+12%3A33%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27Ronah+%27+%26lt%3B%3Ca+href%3D%22mailto%3Aronah%40jsm.co.id%22%3Eronah%40jsm.co.id%3C%2Fa%3E%26gt%3B%3B+%27Cut+Liza%27+%26lt%3B%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3Ecut.liza%40jsm.co.id%3C%2Fa%3E%26gt%3B%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Fransiskus+Manulang%27+%26lt%3B%3Ca+href%3D%22mailto%3Afrans%40jsm.co.id%22%3Efrans%40jsm.co.id%3C%2Fa%3E%26gt%3B%3B+%27Novian+Hendrianto%27+%26lt%3B%3Ca+href%3D%22mailto%3Anovian%40jsm.co.id%22%3Enovian%40jsm.co.id%3C%2Fa%3E%26gt%3B%3B+%3Ca+href%3D%22mailto%3Aandrian%40jsm.co.id%22%3Eandrian%40jsm.co.id%3C%2Fa%3E%3B+Irwan+Surya+%26lt%3B%3Ca+href%3D%22mailto%3Airwan.surya%40jsm.co.id%22%3Eirwan.surya%40jsm.co.id%3C%2Fa%3E%26gt%3B%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3Cbr+%2F%3E%3Cstrong%3EImportance%3A%3C%2Fstrong%3E+High%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%23002060%3B%22%3EDear+Team+BS+%26amp%3B+BD+%2C%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%23002060%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%23002060%3B%22%3EMohon+di+bantu+untuk+solusinya+%2C+karena+target+ASA+kami+2+second+%2C+please+ASAP.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%23002060%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%23002060%3B%22%3EThanks+%26amp%3B+Regards%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%23002060%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+14.0pt%3B+font-family%3A+%27Adobe+Garamond+Pro+Bold%27%3B+color%3A+navy%3B%22%3ETiwi+Prihatini%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+%27Cambria%27%2Cserif%3B+color%3A+black%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Book+Antiqua%27%2Cserif%3B+font-variant%3A+small-caps%3B+color%3A+black%3B%22%3E%26nbsp%3B%3Cstrong%3EPT.+Jaring+Synergi+Mandiri%3C%2Fstrong%3E%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Book+Antiqua%27%2Cserif%3B+color%3A+black%3B%22%3EJalan+Cideng+Barat+No.76%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B+%26nbsp%3B%26nbsp%3B+%7C%26nbsp%3B%26nbsp%3B+Hp.+%2B6285781415011%26nbsp%3B+%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%7C%26nbsp%3B+Fax.+0213457658%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Book+Antiqua%27%2Cserif%3B+color%3A+black%3B%22%3EJakarta+Pusat%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B+%7C%26nbsp%3B%26nbsp%3B+Off.+0213457449+%23+5533%26nbsp%3B%26nbsp%3B%26nbsp%3B%26nbsp%3B+%26nbsp%3B%26nbsp%3B+%26nbsp%3B+%7C%26nbsp%3B+E-mail%3A+%3C%2Fspan%3E%3Cspan+style%3D%22color%3A+%23002060%3B%22%3E%3Ca+href%3D%22mailto%3Atiwi.prihatini%40jsm.co.id%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Book+Antiqua%27%2Cserif%3B%22%3Etiwi.prihatini%40jsm.co.id%3C%2Fspan%3E%3C%2Fa%3E%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%23002060%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23E1E1E1+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3EFrom%3A%3C%2Fstrong%3E+Ronah+%5B%3Ca+href%3D%22mailto%3Aronah%40jsm.co.id%22%3Emailto%3Aronah%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Monday%2C+April+2%2C+2018+12%3A03+PM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27Cut+Liza%27%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Tiwi+Prihatini%27%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EDear+Mba+Icha%2C%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3ESejauh+ini+dengan+versi+yang+terbaru+ketika+pick+up+tlp+tidak+terjadi+SQL+namun+ketika+CSR+akan+hang+up+tlp+malah+terjadi+SQL+sekitar+3-5+detik+mba%2C+tapi+tidak+selalu+terjadi+hanya+beberapa+kali+saja+dan+itupun+dengan+kondisi+history+call+yang+tidak+dimunculkan.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3EDemikian+informasinya%2C+atas+perhatiannya+saya+ucapkan+terima+kasih.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3ESalam%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3ERonah%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3EFrom%3A%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E+Cut+Liza+%5B%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3Emailto%3Acut.liza%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Monday%2C+April+02%2C+2018+11%3A51+AM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+Ronah+%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+Tiwi%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+FW%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EDear+Ronah%2C+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EApakah+ada+kendala+dengan+versi+yang+terbaru+ini+serta+dengan+adanya+penambahan+fiture+terbaru+%3F%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EDemikian+dan+terimakasih%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EBest+Regards%2C%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+14.0pt%3B+font-family%3A+%27Monotype+Corsiva%27%3B+color%3A+%2300218a%3B%22%3ECut+Liza+Yunita%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%2300218a%3B%22%3E%3Cimg+id%3D%22_x0000_i1025%22+src%3D%22cid%3Aimage005.jpg%4001D3DBD8.F057C860%22+alt%3D%22cid%3Aimage001.jpg%4001D27E0F.F0945D70%22+width%3D%2298%22+height%3D%2254%22+border%3D%220%22+%2F%3E%3C%2Fspan%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Verdana%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%3Cbr+%2F%3E%3C%2Fspan%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EPT+Jaring+Synergi+Mandiri%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%3Cbr+%2F%3ETelp+%3Cstrong%3E%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%3C%2Fstrong%3E%3Cbr+%2F%3EE-mail%3A+%3C%2Fspan%3E%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ecut.liza%40jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E+%7C+%3C%2Fspan%3E%3C%2Fstrong%3E%3Ca+href%3D%22http%3A%2F%2Fwww.jsm.co.id%2F%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ewww.jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3EFrom%3A%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E+frans+%5B%3Ca+href%3D%22mailto%3Afrans%40jsm.co.id%22%3Emailto%3Afrans%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Thursday%2C+March+29%2C+2018+6%3A10+PM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27Cut+Liza%27%3B+%27Didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%27Oka%27%3B+%3Ca+href%3D%22mailto%3Ait.support%40jsm.co.id%22%3Eit.support%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Ronah%27%3B+%27Tiwi%27%3B+%3Ca+href%3D%22mailto%3Afirman%40jsm.co.id%22%3Efirman%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Aaan%40jsm.co.id%22%3Eaan%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Anovian%40jsm.co.id%22%3Enovian%40jsm.co.id%3C%2Fa%3E%3B+%27Rahmat+Santoso%27%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EDear+Icha%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EUpdate+pada+aplikasi+sudah+dilakukan+yah+pada+show+history+call+dan+history+ticket+saat+pick+up+call%2C+csr+bisa+menekan+button+show+history+call+%26amp%3B+%26nbsp%3Bbutton+show+history+ticket.%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EVersi+terbaru+pada+aplikasi+ada+di+29.%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ETerima+kasih%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ESalam%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EFrans%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23E1E1E1+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3EFrom%3A%3C%2Fstrong%3E+Cut+Liza+%5B%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3Emailto%3Acut.liza%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+28+March+2018+14%3A15%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27frans%27%3B+%27Didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%27Oka%27%3B+%3Ca+href%3D%22mailto%3Ait.support%40jsm.co.id%22%3Eit.support%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Ronah%27%3B+%27Tiwi%27%3B+%3Ca+href%3D%22mailto%3Afirman%40jsm.co.id%22%3Efirman%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Aaan%40jsm.co.id%22%3Eaan%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Anovian%40jsm.co.id%22%3Enovian%40jsm.co.id%3C%2Fa%3E%3B+%27Rahmat+Santoso%27%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300337e%3B%22%3EDear+Frans%2C+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300337e%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300337e%3B%22%3EThanks+ya+untuk+supportnya.+Serta+penjelasannya.+Kami+tunggu+kabar+baiknya+di+tanggal+%3C%2Fspan%3E%3Cspan+style%3D%22color%3A+%2300337e%3B%22%3EKamis+29+Maret+2018.+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300337e%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300337e%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300337e%3B%22%3EDemikian+dan+terimakasih%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300337e%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EBest+Regards%2C%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+14.0pt%3B+font-family%3A+%27Monotype+Corsiva%27%3B+color%3A+%2300218a%3B%22%3ECut+Liza+Yunita%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%2300218a%3B%22%3E%3Cimg+id%3D%22_x0000_i1026%22+src%3D%22cid%3Aimage005.jpg%4001D3DBD8.F057C860%22+alt%3D%22cid%3Aimage001.jpg%4001D27E0F.F0945D70%22+width%3D%2298%22+height%3D%2254%22+border%3D%220%22+%2F%3E%3C%2Fspan%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Verdana%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%3Cbr+%2F%3E%3C%2Fspan%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EPT+Jaring+Synergi+Mandiri%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%3Cbr+%2F%3ETelp+%3Cstrong%3E%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%3C%2Fstrong%3E%3Cbr+%2F%3EE-mail%3A+%3C%2Fspan%3E%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ecut.liza%40jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E+%7C+%3C%2Fspan%3E%3C%2Fstrong%3E%3Ca+href%3D%22http%3A%2F%2Fwww.jsm.co.id%2F%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ewww.jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3EFrom%3A%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E+frans+%5B%3Ca+href%3D%22mailto%3Afrans%40jsm.co.id%22%3Emailto%3Afrans%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Wednesday%2C+March+28%2C+2018+9%3A50+AM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27Cut+Liza%27%3B+%27Didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%27Oka%27%3B+%3Ca+href%3D%22mailto%3Ait.support%40jsm.co.id%22%3Eit.support%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Ronah%27%3B+%27Tiwi%27%3B+%3Ca+href%3D%22mailto%3Afirman%40jsm.co.id%22%3Efirman%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Aaan%40jsm.co.id%22%3Eaan%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Anovian%40jsm.co.id%22%3Enovian%40jsm.co.id%3C%2Fa%3E%3B+%27Rahmat+Santoso%27%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EDear+Bu+Icha+%3Cspan+style%3D%22font-family%3A+Wingdings%3B%22%3EJ%3C%2Fspan%3E%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EStep+by+step+dulu+yah%2C+ke+Bank+Agris+dulu+sesuai+tema+email%2C+baru+selanjutnya+langsung+ke+aplikasi+sejenis+di+project+lainnya.%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ETerima+kasih%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ESalam%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EFrans%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%231f497d%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23E1E1E1+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3EFrom%3A%3C%2Fstrong%3E+Cut+Liza+%5B%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3Emailto%3Acut.liza%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+28+March+2018+9%3A14%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27frans%27%3B+%27Didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%27Oka%27%3B+%3Ca+href%3D%22mailto%3Ait.support%40jsm.co.id%22%3Eit.support%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Ronah%27%3B+%27Tiwi%27%3B+%3Ca+href%3D%22mailto%3Afirman%40jsm.co.id%22%3Efirman%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Aaan%40jsm.co.id%22%3Eaan%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Anovian%40jsm.co.id%22%3Enovian%40jsm.co.id%3C%2Fa%3E%3B+%27Rahmat+Santoso%27%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EDear+Frans%2C+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EApakah+ini+berlaku+pada+aplikasi+mana+saja+ya+%3F+apakah+semua+perbankan+%3F%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EDemikian+dan+terimakasih%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EBest+Regards%2C%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+14.0pt%3B+font-family%3A+%27Monotype+Corsiva%27%3B+color%3A+%2300218a%3B%22%3ECut+Liza+Yunita%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%2300218a%3B%22%3E%3Cimg+id%3D%22_x0000_i1027%22+src%3D%22cid%3Aimage005.jpg%4001D3DBD8.F057C860%22+alt%3D%22cid%3Aimage001.jpg%4001D27E0F.F0945D70%22+width%3D%2298%22+height%3D%2254%22+border%3D%220%22+%2F%3E%3C%2Fspan%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Verdana%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%3Cbr+%2F%3E%3C%2Fspan%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EPT+Jaring+Synergi+Mandiri%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%3Cbr+%2F%3ETelp+%3Cstrong%3E%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%3C%2Fstrong%3E%3Cbr+%2F%3EE-mail%3A+%3C%2Fspan%3E%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ecut.liza%40jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E+%7C+%3C%2Fspan%3E%3C%2Fstrong%3E%3Ca+href%3D%22http%3A%2F%2Fwww.jsm.co.id%2F%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ewww.jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3EFrom%3A%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E+frans+%5B%3Ca+href%3D%22mailto%3Afrans%40jsm.co.id%22%3Emailto%3Afrans%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Tuesday%2C+March+27%2C+2018+6%3A26+PM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27Cut+Liza%27%3B+%27Didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%27Oka%27%3B+%3Ca+href%3D%22mailto%3Ait.support%40jsm.co.id%22%3Eit.support%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Ronah%27%3B+%27Tiwi%27%3B+%3Ca+href%3D%22mailto%3Afirman%40jsm.co.id%22%3Efirman%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Aaan%40jsm.co.id%22%3Eaan%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Anovian%40jsm.co.id%22%3Enovian%40jsm.co.id%3C%2Fa%3E%3B+%27Rahmat+Santoso%27%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EDear+Icha%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EUntuk+button+search+histori+call+dan+ticket%2C+akan+selesai+di+update+lusa+yah+%28+Kamis+29+Maret+2018+%29+oleh+developer.%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EDemikian+informasinya+Icha.%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ETerima+kasih%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3ESalam%2C%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3EFrans%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23E1E1E1+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3EFrom%3A%3C%2Fstrong%3E+Cut+Liza+%5B%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3Emailto%3Acut.liza%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+27+March+2018+14%3A54%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27Didit%27%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+%27Oka%27%3B+%3Ca+href%3D%22mailto%3Ait.support%40jsm.co.id%22%3Eit.support%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Afrans%40jsm.co.id%22%3Efrans%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27Ronah%27%3B+%27Tiwi%27%3B+%3Ca+href%3D%22mailto%3Afirman%40jsm.co.id%22%3Efirman%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Aaan%40jsm.co.id%22%3Eaan%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Abusiness-analyst%40jsm.co.id%22%3Ebusiness-analyst%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Anovian%40jsm.co.id%22%3Enovian%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+RE%3A+Problem+ASA+di+Unit+CC+Agris+PROBLEM+SQL%3Cbr+%2F%3E%3Cstrong%3EImportance%3A%3C%2Fstrong%3E+High%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B+background%3A+yellow%3B+mso-highlight%3A+yellow%3B%22%3EDear+Mas+Didit%2C+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3ETerimakasih+atas+respon+cepatnya+kepada+kami%2C+ok+Mas+Dit+mohon+dibantu+monitoring+juga+ya+apakah+pernah+memakan+source+yang+tinggi+apa+tidaknya%2C+sehingga+mempengaruhi.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B+background%3A+yellow%3B+mso-highlight%3A+yellow%3B%22%3EDear+Bang+Frans%2C+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EMenyambung+dengan+pembicaraan+kita+tadi+by+telepon%2C+kami+tunggu+dengan+penambahan+button+search+histori+call+pada+modul+call+detail+agent.+Dan+bisa+di+sampaikan+kepada+kami+berapa+lama+develop+fiture+tersebut%26nbsp%3B+%3F%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EDan+histori+akan+muncul+semua+ketika+agent+lakukan+search+%2C+dan+tanpa+ada+kurang+apapun+pada+data+historinya%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EDemikian+dan+terimakasih%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EBest+Regards%2C%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+14.0pt%3B+font-family%3A+%27Monotype+Corsiva%27%3B+color%3A+%2300218a%3B%22%3ECut+Liza+Yunita%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22color%3A+%2300218a%3B%22%3E%3Cimg+id%3D%22_x0000_i1028%22+src%3D%22cid%3Aimage005.jpg%4001D3DBD8.F057C860%22+alt%3D%22cid%3Aimage001.jpg%4001D27E0F.F0945D70%22+width%3D%2298%22+height%3D%2254%22+border%3D%220%22+%2F%3E%3C%2Fspan%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Verdana%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%3Cbr+%2F%3E%3C%2Fspan%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EPT+Jaring+Synergi+Mandiri%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%3Cbr+%2F%3ETelp+%3Cstrong%3E%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%3C%2Fstrong%3E%3Cbr+%2F%3EE-mail%3A+%3C%2Fspan%3E%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ecut.liza%40jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E+%7C+%3C%2Fspan%3E%3C%2Fstrong%3E%3Ca+href%3D%22http%3A%2F%2Fwww.jsm.co.id%2F%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ewww.jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3EFrom%3A%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E+Didit+%5B%3Ca+href%3D%22mailto%3Adidit%40jsm.co.id%22%3Emailto%3Adidit%40jsm.co.id%3C%2Fa%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Tuesday%2C+March+27%2C+2018+1%3A01+PM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+Cut+Liza%3B+%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%3B+Oka%3B+%3Ca+href%3D%22mailto%3Ait.support%40jsm.co.id%22%3Eit.support%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+Ronah%3B+Tiwi%3B+%3Ca+href%3D%22mailto%3Afirman%40jsm.co.id%22%3Efirman%40jsm.co.id%3C%2Fa%3E%3B+%3Ca+href%3D%22mailto%3Aaan%40jsm.co.id%22%3Eaan%40jsm.co.id%3C%2Fa%3E%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+Re%3A+Problem+ASA+di+Unit+CC+Agris+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%26nbsp%3B%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3EDear+Team%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3ETerkait+dengan+adanya+kendala+yang+di+alami+oleh+unit+CC+Bank+Agris%2C+dengan+ini+dapat+saya+informasikan+kondisi+server+pada+saat+terjadinya+gangguan+tersebut%2C+%28mohon+maaf+hanya+bisa+dilampirkan+pada+bulan+berjalan%29.+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3ESebagai+informasi%2C+saya+sudah+menginformasikan+untuk+sesegera+mungkin+dilakukan+pengecekan+jaringan+pada+saat+terjadi+gangguan+ASA+tersebut+dengan+jalan+melakukan+ping+ke+server+192.168.0.158.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22color%3A+black%3B%22%3EDidit+Nya+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22color%3A+black%3B%22%3EPT.+Jaring+Synergi+Mandiri%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22color%3A+black%3B%22%3EGedung+JSM%2C+5%3C%2Fspan%3E%3Cstrong%3E%3Csup%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Helvetica+Neue%27%3B+color%3A+%23333333%3B+border%3A+none+windowtext+1.0pt%3B+padding%3A+0cm%3B%22%3Eth%3C%2Fspan%3E%3C%2Fsup%3E%3C%2Fstrong%3E%3Cspan+lang%3D%22EN-ID%22%3E+Floor%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3EJl.+Cideng+Barat+No.76+Jakarta+Pusat+10150%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+12.0pt%3B+color%3A+black%3B%22%3EFrom%3A+%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+12.0pt%3B+color%3A+black%3B%22%3ECut+Liza+%26lt%3B%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3Ecut.liza%40jsm.co.id%3C%2Fa%3E%26gt%3B%3Cbr+%2F%3E%3Cstrong%3EDate%3A+%3C%2Fstrong%3ETuesday%2C+27+March+2018+12%3A41%3Cbr+%2F%3E%3Cstrong%3ETo%3A+%3C%2Fstrong%3E%26lt%3B%3Ca+href%3D%22mailto%3Abusiness-support%40jsm.co.id%22%3Ebusiness-support%40jsm.co.id%3C%2Fa%3E%26gt%3B%2C+Oka+%26lt%3B%3Ca+href%3D%22mailto%3Aoka.it%40jsm.co.id%22%3Eoka.it%40jsm.co.id%3C%2Fa%3E%26gt%3B%2C+%22%3Ca+href%3D%22mailto%3Ait.support%40jsm.co.id%22%3Eit.support%40jsm.co.id%3C%2Fa%3E%22+%26lt%3B%3Ca+href%3D%22mailto%3Ait.support%40jsm.co.id%22%3Eit.support%40jsm.co.id%3C%2Fa%3E%26gt%3B%3Cbr+%2F%3E%3Cstrong%3ECc%3A+%3C%2Fstrong%3ERonah+%26lt%3B%3Ca+href%3D%22mailto%3Aronah%40jsm.co.id%22%3Eronah%40jsm.co.id%3C%2Fa%3E%26gt%3B%2C+Tiwi+%26lt%3B%3Ca+href%3D%22mailto%3Atiwi.prihatini%40jsm.co.id%22%3Etiwi.prihatini%40jsm.co.id%3C%2Fa%3E%26gt%3B%2C+Firman+JSM+%26lt%3B%3Ca+href%3D%22mailto%3Afirman%40jsm.co.id%22%3Efirman%40jsm.co.id%3C%2Fa%3E%26gt%3B%2C+Aan+Rudianto+%26lt%3B%3Ca+href%3D%22mailto%3Aaan%40jsm.co.id%22%3Eaan%40jsm.co.id%3C%2Fa%3E%26gt%3B%3Cbr+%2F%3E%3Cstrong%3ESubject%3A+%3C%2Fstrong%3EFW%3A+Problem+ASA+di+Unit+CC+Agris+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Ca+name%3D%22_MailOriginalBody%22%3E%3C%2Fa%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EDear+Oka+dan+Tim+Bs%2C+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EMohon+dibantu+untuk+investigasi+hal+ini%2C+kenapa+sering+terjadi+SQL+pada+aplikasi+CC%2C+Sql+ini+menyebabnya+ASA+di+aplikasi+cukup+tinggi%2C+dan+ini+mempengaruhi+Service+Level+Performaance+CC.+Mohon+diberikan+solusinya+ya+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EKami+tidak+mengetahui+apakah+ini+dari+jaringan+intra+atau+dari+sisi+aplikasi.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EDi+tunggu+responnya.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EDemikian+dan+terimakasih%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-family%3A+%27Candara%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3EBest+Regards%2C%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+14.0pt%3B+font-family%3A+%27Monotype+Corsiva%27%3B+color%3A+%2300218a%3B%22%3ECut+Liza+Yunita%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22color%3A+%2300218a%3B%22%3E%3Cimg+id%3D%22_x0000_i1029%22+src%3D%22cid%3Aimage006.jpg%4001D3DBD8.F057C860%22+alt%3D%22cid%3Aimage001.jpg%4001D27E0F.F0945D70%22+width%3D%2298%22+height%3D%2254%22+border%3D%220%22+%2F%3E%3C%2Fspan%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+%27Verdana%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%3Cbr+%2F%3E%3C%2Fspan%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EPT+Jaring+Synergi+Mandiri%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3EJalan+Cideng+Barat+no+76%26nbsp%3B%26nbsp%3B+l%26nbsp%3B%26nbsp%3B+Jakarta+10160%3Cbr+%2F%3ETelp+%3Cstrong%3E%2B62+21+3457449%26nbsp%3B+l%26nbsp%3B+fax+%2B62+21+3457658%26nbsp%3B+l%26nbsp%3B+Hp+%3A+0818435181%3C%2Fstrong%3E%3Cbr+%2F%3EE-mail%3A+%3C%2Fspan%3E%3Ca+href%3D%22mailto%3Acut.liza%40jsm.co.id%22%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ecut.liza%40jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3E+%7C+%3C%2Fspan%3E%3C%2Fstrong%3E%3Ca+href%3D%22http%3A%2F%2Fwww.jsm.co.id%2F%22%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+8.0pt%3B+font-family%3A+Gisha%3B+color%3A+%2300218a%3B%22%3Ewww.jsm.co.id%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fa%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+12.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B+color%3A+%2300218a%3B%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22border%3A+none%3B+border-top%3A+solid+%23B5C4DF+1.0pt%3B+padding%3A+3.0pt+0cm+0cm+0cm%3B%22%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3EFrom%3A%3C%2Fspan%3E%3C%2Fstrong%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E+Ronah+%5B%3C%2Fspan%3E%3Ca+href%3D%22mailto%3Aronah%40jsm.co.id%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3Emailto%3Aronah%40jsm.co.id%3C%2Fspan%3E%3C%2Fa%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Tahoma%27%2Csans-serif%3B%22%3E%5D+%3Cbr+%2F%3E%3Cstrong%3ESent%3A%3C%2Fstrong%3E+Tuesday%2C+March+27%2C+2018+11%3A42+AM%3Cbr+%2F%3E%3Cstrong%3ETo%3A%3C%2Fstrong%3E+%27didit%27%3Cbr+%2F%3E%3Cstrong%3ECc%3A%3C%2Fstrong%3E+%27it.support%27%3B+%27Firman%27%3B+%27Cut+Liza%27%3B+%27Tiwi+Prihatini%27%3Cbr+%2F%3E%3Cstrong%3ESubject%3A%3C%2Fstrong%3E+Problem+ASA+di+Unit+CC+Agris+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3EDear+Mas+Didit%2C%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3EMohon+bantuan+%26amp%3B+solusinya+untuk+dilakukan+pengecekan+terkait+aplikasi+CC+Agris+yang+sql+saat+pick+up+tlp+sehingga+menyebabkan+ASA+menjadi+besar+dan+ini+sudah+terjadi+beberapa+kali%2C+berikut+terlampir+data+ASA+yang+cukup+tinggi+selama+beberapa+bulan+terakhir.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3EDemikian+informasinya%2C+atas+perhatiannya+saya+ucapkan+terima+kasih.%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22IN%22+style%3D%22font-size%3A+9.0pt%3B+font-family%3A+%27Trebuchet+MS%27%2Csans-serif%3B+color%3A+%2317365d%3B%22%3EBest+Regards%2C%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22IN%22+style%3D%22font-size%3A+28.0pt%3B+font-family%3A+%27Juice+ITC%27%3B+color%3A+%231f497d%3B%22%3ERonah%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22IN%22+style%3D%22font-size%3A+10.0pt%3B+color%3A+%234f6228%3B%22%3ECall+Center+Bank+Agris%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cstrong%3E%3Cspan+lang%3D%22IN%22+style%3D%22font-size%3A+9.0pt%3B+font-family%3A+%27Trebuchet+MS%27%2Csans-serif%3B+color%3A+%2317365d%3B%22%3E%3Cimg+id%3D%22Picture_x0020_1%22+src%3D%22cid%3Aimage007.jpg%4001D3DBD8.F057C860%22+alt%3D%22agris2%22+width%3D%22147%22+height%3D%2260%22+border%3D%220%22+%2F%3E%3C%2Fspan%3E%3C%2Fstrong%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+color%3A+%231f497d%3B%22%3EPT.+JARING+SYNERGI+MANDIRI%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22+style%3D%22text-align%3A+justify%3B%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Trebuchet+MS%27%2Csans-serif%3B+color%3A+%231f497d%3B%22%3EJ%3C%2Fspan%3E%3Cspan+lang%3D%22IN%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Trebuchet+MS%27%2Csans-serif%3B+color%3A+%231f497d%3B%22%3Ealan+%3C%2Fspan%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+font-family%3A+%27Trebuchet+MS%27%2Csans-serif%3B+color%3A+%231f497d%3B%22%3ECideng+Barat+No.+76+Jakarta+10160%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+color%3A+%231f497d%3B%22%3ETlp.+021-3457449+ext.+30%3C%2Fspan%3E%3Cspan+lang%3D%22IN%22+style%3D%22font-size%3A+10.0pt%3B+color%3A+%231f497d%3B%22%3E16+%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+color%3A+%231f497d%3B%22%3EE-mail%3A+%3C%2Fspan%3E%3Ca+href%3D%22mailto%3Aronah%40jsm.co.id%22%3E%3Cspan+lang%3D%22IN%22+style%3D%22font-size%3A+10.0pt%3B%22%3Eronah%3C%2Fspan%3E%3Cspan+style%3D%22font-size%3A+10.0pt%3B%22%3E%40jsm.co.id%3C%2Fspan%3E%3C%2Fa%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B+color%3A+%231f497d%3B%22%3E+%7C+%3C%2Fspan%3E%3Ca+href%3D%22http%3A%2F%2Fwww.jsm.co.id%22%3E%3Cspan+lang%3D%22EN-ID%22+style%3D%22font-size%3A+10.0pt%3B%22%3Ewww.jsm.co.id%3C%2Fspan%3E%3C%2Fa%3E%3C%2Fp%3E%0D%0A%3Cp+class%3D%22MsoNormal%22%3E%3Cspan+lang%3D%22IN%22%3E%26nbsp%3B%3C%2Fspan%3E%3C%2Fp%3E%0D%0A%3C%2Fdiv%3E&user_id=1&email_status_id=11&direction_id=2&ticket_no=1804250035&ticket_id=63&customer_id=57&contact_type_id=1&product_type_id=1
+========================================
+2018-04-25 09:01:40 
+::1 POST /synergix-takaful/public-api/v1/media_outbound_types/multiple HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 135
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+0%5Buser_id%5D=1&0%5Bmedia_id%5D=3&0%5Bmedia_record_id%5D=352&0%5Boutbound_type_id%5D=2&0%5Boutbound_type_name%5D=INTERNAL+COORDINATION
+========================================
+2018-04-25 09:01:40 
+::1 POST /synergix-takaful/public-api/v1/email_attachments HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 101635
+Content-Type: multipart/form-data; boundary="efebb092ced02424d2154a351d9f2d71"
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+User-Agent: CakePHP
+Request body:
+
+========================================
+2018-04-25 09:01:41 
+::1 PUT /synergix-takaful/public-api/v1/emails/352 HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+email_status_id=9&is_complete=1
+========================================
+2018-04-25 09:01:42 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1804250035 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 09:01:46 
+::1 GET /synergix-takaful/public-api/v1/media_tickets?ticket_id=63&order=created&sort=asc HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2MjE1OTIsImp0aSI6Im42NjNyTXY4NFR2dnJ3OCtrZllLYjZLUldYaldiRUYyelRYVmpMZUdYKzQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjIxNTkyLCJleHAiOjE1MjQ2MjMzOTIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.ityroQguxQlvIPGrjTQ_Qus4-iWCB4ljwffEr_KmvUI
+Connection: close
+Request body:
+
+========================================
+2018-04-25 17:39:00 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-04-25 17:39:01 
+::1 GET /synergix-takaful/public-api/v1/users/8 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTI3NDAsImp0aSI6IkwwajhEeW5cL2V2YXR0OEtRN0ZVUzQrTG0rRVpPNUVFeng2RFc0UFRVZzYwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDY1Mjc0MCwiZXhwIjoxNTI0NjU0NTQwLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4OlxUB9ijFaKKEqmdt_OJOfbmIxH2wHfTl9zm30XmNE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 17:39:01 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTI3NDAsImp0aSI6IkwwajhEeW5cL2V2YXR0OEtRN0ZVUzQrTG0rRVpPNUVFeng2RFc0UFRVZzYwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDY1Mjc0MCwiZXhwIjoxNTI0NjU0NTQwLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4OlxUB9ijFaKKEqmdt_OJOfbmIxH2wHfTl9zm30XmNE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 17:39:02 
+::1 GET /synergix-takaful/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTI3NDAsImp0aSI6IkwwajhEeW5cL2V2YXR0OEtRN0ZVUzQrTG0rRVpPNUVFeng2RFc0UFRVZzYwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDY1Mjc0MCwiZXhwIjoxNTI0NjU0NTQwLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4OlxUB9ijFaKKEqmdt_OJOfbmIxH2wHfTl9zm30XmNE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 17:39:02 
+::1 GET /synergix-takaful/public-api/v1/departments?is_active=1&limit=100&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTI3NDAsImp0aSI6IkwwajhEeW5cL2V2YXR0OEtRN0ZVUzQrTG0rRVpPNUVFeng2RFc0UFRVZzYwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDY1Mjc0MCwiZXhwIjoxNTI0NjU0NTQwLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4OlxUB9ijFaKKEqmdt_OJOfbmIxH2wHfTl9zm30XmNE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 17:39:02 
+::1 GET /synergix-takaful/public-api/v1/ticket_priorities?is_active=1&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTI3NDAsImp0aSI6IkwwajhEeW5cL2V2YXR0OEtRN0ZVUzQrTG0rRVpPNUVFeng2RFc0UFRVZzYwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDY1Mjc0MCwiZXhwIjoxNTI0NjU0NTQwLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4OlxUB9ijFaKKEqmdt_OJOfbmIxH2wHfTl9zm30XmNE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 17:39:02 
+::1 GET /synergix-takaful/public-api/v1/ticket_statuses/active?order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTI3NDAsImp0aSI6IkwwajhEeW5cL2V2YXR0OEtRN0ZVUzQrTG0rRVpPNUVFeng2RFc0UFRVZzYwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDY1Mjc0MCwiZXhwIjoxNTI0NjU0NTQwLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4OlxUB9ijFaKKEqmdt_OJOfbmIxH2wHfTl9zm30XmNE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 17:39:02 
+::1 GET /synergix-takaful/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTI3NDAsImp0aSI6IkwwajhEeW5cL2V2YXR0OEtRN0ZVUzQrTG0rRVpPNUVFeng2RFc0UFRVZzYwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDY1Mjc0MCwiZXhwIjoxNTI0NjU0NTQwLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4OlxUB9ijFaKKEqmdt_OJOfbmIxH2wHfTl9zm30XmNE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 17:39:02 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTI3NDAsImp0aSI6IkwwajhEeW5cL2V2YXR0OEtRN0ZVUzQrTG0rRVpPNUVFeng2RFc0UFRVZzYwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDY1Mjc0MCwiZXhwIjoxNTI0NjU0NTQwLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4OlxUB9ijFaKKEqmdt_OJOfbmIxH2wHfTl9zm30XmNE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 17:39:02 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTI3NDAsImp0aSI6IkwwajhEeW5cL2V2YXR0OEtRN0ZVUzQrTG0rRVpPNUVFeng2RFc0UFRVZzYwPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNDY1Mjc0MCwiZXhwIjoxNTI0NjU0NTQwLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4OlxUB9ijFaKKEqmdt_OJOfbmIxH2wHfTl9zm30XmNE
+Connection: close
+Request body:
+
+========================================
+2018-04-25 18:50:23 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-04-25 18:50:25 
+::1 GET /synergix-takaful/public-api/v1/users/8 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTcwMjQsImp0aSI6InNITnk5MTZJTXpka3ZnTklVZTl1Mk9tbWVXRWlkRk13YUw5UkN1NFlnMHc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjU3MDI0LCJleHAiOjE1MjQ2NTg4MjQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.T4iLIX3juBW-gYbTG9oOYgF5gqLrjQcwjUDNqSSQfWw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 18:50:25 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTcwMjQsImp0aSI6InNITnk5MTZJTXpka3ZnTklVZTl1Mk9tbWVXRWlkRk13YUw5UkN1NFlnMHc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjU3MDI0LCJleHAiOjE1MjQ2NTg4MjQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.T4iLIX3juBW-gYbTG9oOYgF5gqLrjQcwjUDNqSSQfWw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 18:50:25 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTcwMjQsImp0aSI6InNITnk5MTZJTXpka3ZnTklVZTl1Mk9tbWVXRWlkRk13YUw5UkN1NFlnMHc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjU3MDI0LCJleHAiOjE1MjQ2NTg4MjQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.T4iLIX3juBW-gYbTG9oOYgF5gqLrjQcwjUDNqSSQfWw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 18:50:25 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NTcwMjQsImp0aSI6InNITnk5MTZJTXpka3ZnTklVZTl1Mk9tbWVXRWlkRk13YUw5UkN1NFlnMHc9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjU3MDI0LCJleHAiOjE1MjQ2NTg4MjQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.T4iLIX3juBW-gYbTG9oOYgF5gqLrjQcwjUDNqSSQfWw
+Connection: close
+Request body:
+
+========================================
+2018-04-25 20:01:44 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-04-25 20:01:45 
+::1 GET /synergix-takaful/public-api/v1/users/8 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NjEzMDQsImp0aSI6IjZKRnBmS0pGdkx6WnU3WENCcXlWWGRWNjcrRTRpQURpeHRIT0hrak9PR1U9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjYxMzA0LCJleHAiOjE1MjQ2NjMxMDQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.uyDizgMakSYS1RqcImSb15mp8QsNXNjlvQOtjRG6KZQ
+Connection: close
+Request body:
+
+========================================
+2018-04-25 20:01:45 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NjEzMDQsImp0aSI6IjZKRnBmS0pGdkx6WnU3WENCcXlWWGRWNjcrRTRpQURpeHRIT0hrak9PR1U9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjYxMzA0LCJleHAiOjE1MjQ2NjMxMDQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.uyDizgMakSYS1RqcImSb15mp8QsNXNjlvQOtjRG6KZQ
+Connection: close
+Request body:
+
+========================================
+2018-04-25 20:01:45 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NjEzMDQsImp0aSI6IjZKRnBmS0pGdkx6WnU3WENCcXlWWGRWNjcrRTRpQURpeHRIT0hrak9PR1U9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjYxMzA0LCJleHAiOjE1MjQ2NjMxMDQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.uyDizgMakSYS1RqcImSb15mp8QsNXNjlvQOtjRG6KZQ
+Connection: close
+Request body:
+
+========================================
+2018-04-25 20:01:46 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1524589200&end=1524589200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjQ2NjEzMDQsImp0aSI6IjZKRnBmS0pGdkx6WnU3WENCcXlWWGRWNjcrRTRpQURpeHRIT0hrak9PR1U9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI0NjYxMzA0LCJleHAiOjE1MjQ2NjMxMDQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.uyDizgMakSYS1RqcImSb15mp8QsNXNjlvQOtjRG6KZQ
+Connection: close
+Request body:
+
+========================================

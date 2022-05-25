@@ -1,0 +1,1050 @@
+2018-05-30 15:48:51 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 35
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=bs_admin&password=bs_admin
+========================================
+2018-05-30 15:48:53 
+::1 GET /synergix-takaful/public-api/v1/users/85 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:54 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=7&order=code&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:54 
+::1 GET /synergix-takaful/public-api/v1/ticket_statistics HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:54 
+::1 GET /synergix-takaful/public-api/v1/ticket_statistics/departments HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:54 
+::1 GET /synergix-takaful/public-api/v1/ticket_statistics/categories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:54 
+::1 GET /synergix-takaful/public-api/v1/ticket_statistics/subcategories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:58 
+::1 GET /synergix-takaful/public-api/v1/ticket_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:58 
+::1 GET /synergix-takaful/public-api/v1/departments?is_active=1&limit=100&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:59 
+::1 GET /synergix-takaful/public-api/v1/ticket_priorities?is_active=1&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:59 
+::1 GET /synergix-takaful/public-api/v1/ticket_statuses/active?order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:59 
+::1 GET /synergix-takaful/public-api/v1/product_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:48:59 
+::1 GET /synergix-takaful/public-api/v1/tickets?need_follow_up=1&ticket_status_id=4&limit=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:00 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:04 
+::1 GET /synergix-takaful/public-api/v1/contact_types?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:04 
+::1 GET /synergix-takaful/public-api/v1/ticket_sources?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:04 
+::1 GET /synergix-takaful/public-api/v1/departments?is_active=1&limit=100 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:04 
+::1 GET /synergix-takaful/public-api/v1/ticket_priorities?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:04 
+::1 GET /synergix-takaful/public-api/v1/provinces/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:04 
+::1 GET /synergix-takaful/public-api/v1/customer_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:04 
+::1 GET /synergix-takaful/public-api/v1/ticket_sources?is_active=1&limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:12 
+::1 GET /synergix-takaful/public-api/v1/customers?order=id&sort=desc&limit=10 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:27 
+::1 GET /synergix-takaful/public-api/v1/ticket_categories?product_type_id=1&ticket_type_id=6&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:29 
+::1 GET /synergix-takaful/public-api/v1/ticket_subcategories?ticket_category_id=27&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:37 
+::1 POST /synergix-takaful/public-api/v1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 312
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+media_id=&contact_type_id=1&ticket_source_id=1&product_type_id=1&ticket_category_id=27&ticket_subcategory_id=102&ticket_type_id=6&department_id=32&create_date=2018-05-30+15%3A49%3A37&create_user_id=85&open_date=2018-05-30+15%3A49%3A37&open_user_id=85&ticket_detail=test+&customer_id=2548&sla=7&ticket_status_id=1
+========================================
+2018-05-30 15:49:38 
+::1 GET /synergix-takaful/public-api/v1/tickets/2465 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:39 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1805300680 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:40 
+::1 GET /synergix-takaful/public-api/v1/ticket_categories?is_active=1&ticket_type_id=6&product_type_id=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:40 
+::1 GET /synergix-takaful/public-api/v1/ticket_subcategories?is_active=1&ticket_category_id=27 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:40 
+::1 GET /synergix-takaful/public-api/v1/outbound_types/active?limit=50 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:47 
+::1 GET /synergix-takaful/public-api/v1/tickets/2465/ticket_attachments?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:49 
+::1 GET /synergix-takaful/public-api/v1/tickets/2465/ticket_histories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:49:50 
+::1 GET /synergix-takaful/public-api/v1/media_tickets?ticket_id=2465&order=created&sort=asc HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:50:32 
+::1 GET /synergix-takaful/public-api/v1/tickets/2465/ticket_histories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:50:41 
+::1 GET /synergix-takaful/public-api/v1/tickets/2465/ticket_attachments?is_active=1 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 15:51:46 
+::1 GET /synergix-takaful/public-api/v1/tickets/2465/ticket_histories HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzAxMzIsImp0aSI6ImFMTm5ZVVBkMHBMQlFGbDROaGFEbzlHTmxuZVpaVFJTQzBGalFxdnFhNjQ9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcwMTMyLCJleHAiOjE1Mjc2NzE5MzIsImRhdGEiOnsidXNlcm5hbWUiOiJic19hZG1pbiIsInBhc3N3b3JkIjoiMmU0ZjYzYzkwODYxYTcxMTU1ZDk3M2QzMDgyZDJkZDgwYmQwNTAyZiIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.fBxSfRnYmgM7BShhCwwOAvS3lRsxBiQEIE0rucyEb18
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:10:37 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 16:10:38 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzE0MzcsImp0aSI6Ilo0S2pXdElWMnRmTUI1a0RQd0tZVzFXVWUwd3dvQzhoRDJ6ekg0RWNpaG89IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcxNDM3LCJleHAiOjE1Mjc2NzMyMzcsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.SSVKLkSTxREiRLdpofOr3ek5dq0kJJOm1qrJMKOXA_8
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:10:38 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzE0MzcsImp0aSI6Ilo0S2pXdElWMnRmTUI1a0RQd0tZVzFXVWUwd3dvQzhoRDJ6ekg0RWNpaG89IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcxNDM3LCJleHAiOjE1Mjc2NzMyMzcsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.SSVKLkSTxREiRLdpofOr3ek5dq0kJJOm1qrJMKOXA_8
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:10:44 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzE0MzcsImp0aSI6Ilo0S2pXdElWMnRmTUI1a0RQd0tZVzFXVWUwd3dvQzhoRDJ6ekg0RWNpaG89IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcxNDM3LCJleHAiOjE1Mjc2NzMyMzcsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.SSVKLkSTxREiRLdpofOr3ek5dq0kJJOm1qrJMKOXA_8
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:14:33 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 16:14:34 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzE2NzMsImp0aSI6Ik5VNTROT1RyN1dsbUpqRUVDV1orMzRFZFp2OWpcL3NhQlJzOTM0dWg5Q1l3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3MTY3MywiZXhwIjoxNTI3NjczNDczLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4WWab50gUjj6ZcsxtuWQr6PU4Q2HP2wpXJwo95Uq2iQ
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:14:34 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzE2NzMsImp0aSI6Ik5VNTROT1RyN1dsbUpqRUVDV1orMzRFZFp2OWpcL3NhQlJzOTM0dWg5Q1l3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3MTY3MywiZXhwIjoxNTI3NjczNDczLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4WWab50gUjj6ZcsxtuWQr6PU4Q2HP2wpXJwo95Uq2iQ
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:14:35 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzE2NzMsImp0aSI6Ik5VNTROT1RyN1dsbUpqRUVDV1orMzRFZFp2OWpcL3NhQlJzOTM0dWg5Q1l3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3MTY3MywiZXhwIjoxNTI3NjczNDczLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.4WWab50gUjj6ZcsxtuWQr6PU4Q2HP2wpXJwo95Uq2iQ
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:30:27 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 16:30:28 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzI2MjcsImp0aSI6InZ3SWlKMFdaVHBuXC9qeGZ5WU5VNTJkRmhZUGxFeWVWOHE2aUR4azF6ZWNVPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3MjYyNywiZXhwIjoxNTI3Njc0NDI3LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.sC1xF5kMJINaXqVaNckWsREuYvurwrXPpz31hYO_jOU
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:30:28 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzI2MjcsImp0aSI6InZ3SWlKMFdaVHBuXC9qeGZ5WU5VNTJkRmhZUGxFeWVWOHE2aUR4azF6ZWNVPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3MjYyNywiZXhwIjoxNTI3Njc0NDI3LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.sC1xF5kMJINaXqVaNckWsREuYvurwrXPpz31hYO_jOU
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:30:32 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzI2MjcsImp0aSI6InZ3SWlKMFdaVHBuXC9qeGZ5WU5VNTJkRmhZUGxFeWVWOHE2aUR4azF6ZWNVPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3MjYyNywiZXhwIjoxNTI3Njc0NDI3LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.sC1xF5kMJINaXqVaNckWsREuYvurwrXPpz31hYO_jOU
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:33:08 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 16:33:09 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzI3ODgsImp0aSI6IkowakxGVDlzbnlpeXR1RlJmcUJPZ1luRnNpbFBjU0FjT0g3S3l1WVZUYkE9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcyNzg4LCJleHAiOjE1Mjc2NzQ1ODgsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.vL-0s87AEm19yeavm7bXBZws03O01-DLzgdgfr9Qr-M
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:33:09 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzI3ODgsImp0aSI6IkowakxGVDlzbnlpeXR1RlJmcUJPZ1luRnNpbFBjU0FjT0g3S3l1WVZUYkE9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcyNzg4LCJleHAiOjE1Mjc2NzQ1ODgsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.vL-0s87AEm19yeavm7bXBZws03O01-DLzgdgfr9Qr-M
+Connection: close
+Request body:
+
+========================================
+2018-05-30 16:33:10 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzI3ODgsImp0aSI6IkowakxGVDlzbnlpeXR1RlJmcUJPZ1luRnNpbFBjU0FjT0g3S3l1WVZUYkE9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3NjcyNzg4LCJleHAiOjE1Mjc2NzQ1ODgsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.vL-0s87AEm19yeavm7bXBZws03O01-DLzgdgfr9Qr-M
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:08:47 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:08:49 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzQ5MjgsImp0aSI6IlZqbXJVZkhqRFpcL3ZGYkk2Wno2ckFnNUFwaVptekdmdXBhOFhONUFLTlVjPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3NDkyOCwiZXhwIjoxNTI3Njc2NzI4LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.hb3LBiB3kI4ynAmwVjR1shZCyZh3YES5WOcxXgu0JVI
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:08:49 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzQ5MjgsImp0aSI6IlZqbXJVZkhqRFpcL3ZGYkk2Wno2ckFnNUFwaVptekdmdXBhOFhONUFLTlVjPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3NDkyOCwiZXhwIjoxNTI3Njc2NzI4LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.hb3LBiB3kI4ynAmwVjR1shZCyZh3YES5WOcxXgu0JVI
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:08:49 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzQ5MjgsImp0aSI6IlZqbXJVZkhqRFpcL3ZGYkk2Wno2ckFnNUFwaVptekdmdXBhOFhONUFLTlVjPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3NDkyOCwiZXhwIjoxNTI3Njc2NzI4LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.hb3LBiB3kI4ynAmwVjR1shZCyZh3YES5WOcxXgu0JVI
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:15:50 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:15:51 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzUzNTAsImp0aSI6IjVwdWNUR2lqeDBPZ01BeEV6cEZhV054SWlBMFpZTmFmUG55anZzWWpVeVU9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc1MzUwLCJleHAiOjE1Mjc2NzcxNTAsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.4smknW-R4axtzIZyTeyhHSb-XOtZigJKLUyyG1svsac
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:15:51 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzUzNTAsImp0aSI6IjVwdWNUR2lqeDBPZ01BeEV6cEZhV054SWlBMFpZTmFmUG55anZzWWpVeVU9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc1MzUwLCJleHAiOjE1Mjc2NzcxNTAsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.4smknW-R4axtzIZyTeyhHSb-XOtZigJKLUyyG1svsac
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:15:53 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzUzNTAsImp0aSI6IjVwdWNUR2lqeDBPZ01BeEV6cEZhV054SWlBMFpZTmFmUG55anZzWWpVeVU9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc1MzUwLCJleHAiOjE1Mjc2NzcxNTAsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.4smknW-R4axtzIZyTeyhHSb-XOtZigJKLUyyG1svsac
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:20:04 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:20:05 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzU2MDQsImp0aSI6ImlqSU0zRXJZWDhyY2JLRnhJcWxmZEJwaVpDTmRFeUZ2ejNTMUJvNzlib1k9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc1NjA0LCJleHAiOjE1Mjc2Nzc0MDQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.odloq5ydhTM8FWSl0DqJX8lgJKQzk4eLbU0RhZavSl8
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:20:05 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzU2MDQsImp0aSI6ImlqSU0zRXJZWDhyY2JLRnhJcWxmZEJwaVpDTmRFeUZ2ejNTMUJvNzlib1k9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc1NjA0LCJleHAiOjE1Mjc2Nzc0MDQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.odloq5ydhTM8FWSl0DqJX8lgJKQzk4eLbU0RhZavSl8
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:20:09 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzU2MDQsImp0aSI6ImlqSU0zRXJZWDhyY2JLRnhJcWxmZEJwaVpDTmRFeUZ2ejNTMUJvNzlib1k9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc1NjA0LCJleHAiOjE1Mjc2Nzc0MDQsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.odloq5ydhTM8FWSl0DqJX8lgJKQzk4eLbU0RhZavSl8
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:27:57 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:27:58 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzYwNzcsImp0aSI6IkZzUmtoY1BRXC9iMERjUWlCOGVcL2VjbzNLcEhMbkZaTHZOVHNDTUR3aWtwZz0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2NzYwNzcsImV4cCI6MTUyNzY3Nzg3NywiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.-iG0Q28dNTG-f2MvwmFQN4Eha58wS2XXDOgnx0yluwk
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:27:58 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzYwNzcsImp0aSI6IkZzUmtoY1BRXC9iMERjUWlCOGVcL2VjbzNLcEhMbkZaTHZOVHNDTUR3aWtwZz0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2NzYwNzcsImV4cCI6MTUyNzY3Nzg3NywiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.-iG0Q28dNTG-f2MvwmFQN4Eha58wS2XXDOgnx0yluwk
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:27:58 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzYwNzcsImp0aSI6IkZzUmtoY1BRXC9iMERjUWlCOGVcL2VjbzNLcEhMbkZaTHZOVHNDTUR3aWtwZz0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2NzYwNzcsImV4cCI6MTUyNzY3Nzg3NywiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.-iG0Q28dNTG-f2MvwmFQN4Eha58wS2XXDOgnx0yluwk
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:32:02 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:32:03 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzYzMjIsImp0aSI6ImtGZzRLTFFaeGtuazVHVmRYSHJqR2VxUmorY0VUNHlJV25mKzJDb1d0SXM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc2MzIyLCJleHAiOjE1Mjc2NzgxMjIsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.RFez4Z0R8NaslWLGlb69ueWeup02LPmVNmywJIZRINA
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:32:03 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzYzMjIsImp0aSI6ImtGZzRLTFFaeGtuazVHVmRYSHJqR2VxUmorY0VUNHlJV25mKzJDb1d0SXM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc2MzIyLCJleHAiOjE1Mjc2NzgxMjIsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.RFez4Z0R8NaslWLGlb69ueWeup02LPmVNmywJIZRINA
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:32:05 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzYzMjIsImp0aSI6ImtGZzRLTFFaeGtuazVHVmRYSHJqR2VxUmorY0VUNHlJV25mKzJDb1d0SXM9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc2MzIyLCJleHAiOjE1Mjc2NzgxMjIsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.RFez4Z0R8NaslWLGlb69ueWeup02LPmVNmywJIZRINA
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:34:59 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:35:00 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzY0OTksImp0aSI6IjR4Rlg4c0hycVlJSlgyK0xKOGwyUEx6aE5zYTY3dTBpYXpwWDJuZXFUNU09IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc2NDk5LCJleHAiOjE1Mjc2NzgyOTksImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.V7SSN2VO94cPKxympWGzn3-SCw3sOX7rE-jQ_fuElSQ
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:35:00 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzY0OTksImp0aSI6IjR4Rlg4c0hycVlJSlgyK0xKOGwyUEx6aE5zYTY3dTBpYXpwWDJuZXFUNU09IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc2NDk5LCJleHAiOjE1Mjc2NzgyOTksImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.V7SSN2VO94cPKxympWGzn3-SCw3sOX7rE-jQ_fuElSQ
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:38:48 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:38:49 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzY3MjgsImp0aSI6Im80UnZhbGNFTXp2djdmVG9nVERnQ2tCMlBUV1MxTlNaQXRwaEhESU5xMFE9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc2NzI4LCJleHAiOjE1Mjc2Nzg1MjgsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.t5XDi_RW_yNE4Xdy5815Vx3-zYwk0FZG1S_zrHkaNM8
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:38:49 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzY3MjgsImp0aSI6Im80UnZhbGNFTXp2djdmVG9nVERnQ2tCMlBUV1MxTlNaQXRwaEhESU5xMFE9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc2NzI4LCJleHAiOjE1Mjc2Nzg1MjgsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.t5XDi_RW_yNE4Xdy5815Vx3-zYwk0FZG1S_zrHkaNM8
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:38:52 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzY3MjgsImp0aSI6Im80UnZhbGNFTXp2djdmVG9nVERnQ2tCMlBUV1MxTlNaQXRwaEhESU5xMFE9IiwiaXNzIjoiOjoxIiwibmJmIjoxNTI3Njc2NzI4LCJleHAiOjE1Mjc2Nzg1MjgsImRhdGEiOnsidXNlcm5hbWUiOiJyYWhtYXQiLCJwYXNzd29yZCI6IjkxZGY3YWE2MjA5OWMzYmY0YTNmNmQ1ZDU0NTYzNzg5NDg5ZTA0YjUiLCJpcCI6Ijo6MSIsInVzZXJfYWdlbnQiOiJUaWNrZXRpbmctV2ViQXBwIn19.t5XDi_RW_yNE4Xdy5815Vx3-zYwk0FZG1S_zrHkaNM8
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:41:27 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:41:28 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzY4ODcsImp0aSI6IklyZVFNQjZHTmJTeGZoakdKMER0Wmw3RTZGWEVcL2pMRDBlVjNTNnRZTWtVPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3Njg4NywiZXhwIjoxNTI3Njc4Njg3LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.oE-19WYkSp10y_fXd2ycxCrjZNQCHNQFwGaATbp4tLo
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:41:28 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzY4ODcsImp0aSI6IklyZVFNQjZHTmJTeGZoakdKMER0Wmw3RTZGWEVcL2pMRDBlVjNTNnRZTWtVPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3Njg4NywiZXhwIjoxNTI3Njc4Njg3LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.oE-19WYkSp10y_fXd2ycxCrjZNQCHNQFwGaATbp4tLo
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:41:29 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzY4ODcsImp0aSI6IklyZVFNQjZHTmJTeGZoakdKMER0Wmw3RTZGWEVcL2pMRDBlVjNTNnRZTWtVPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3Njg4NywiZXhwIjoxNTI3Njc4Njg3LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.oE-19WYkSp10y_fXd2ycxCrjZNQCHNQFwGaATbp4tLo
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:43:38 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:43:39 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzcwMTgsImp0aSI6IitucGJLc1lkSStkenB6alwvUjF5UTZaMFFybEJnclNnZUtvTXcydmF1M1F3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3NzAxOCwiZXhwIjoxNTI3Njc4ODE4LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.PQ1sjKrnPue60bPsCEGDG-U3j-Mo0YHYF_rsM-FEOvk
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:43:39 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzcwMTgsImp0aSI6IitucGJLc1lkSStkenB6alwvUjF5UTZaMFFybEJnclNnZUtvTXcydmF1M1F3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3NzAxOCwiZXhwIjoxNTI3Njc4ODE4LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.PQ1sjKrnPue60bPsCEGDG-U3j-Mo0YHYF_rsM-FEOvk
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:43:40 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzcwMTgsImp0aSI6IitucGJLc1lkSStkenB6alwvUjF5UTZaMFFybEJnclNnZUtvTXcydmF1M1F3PSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3NzAxOCwiZXhwIjoxNTI3Njc4ODE4LCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.PQ1sjKrnPue60bPsCEGDG-U3j-Mo0YHYF_rsM-FEOvk
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:45:32 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:45:33 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzcxMzIsImp0aSI6Ik5PVjM4YzdmdFwvbjhDSHUxVlRGN1N0U0RBdzlxd1pxd2lOa0pMMFA4Sk9RPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3NzEzMiwiZXhwIjoxNTI3Njc4OTMyLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.btz3mWX6p_wMhjs-tGs7UVrozYx_ropxwx2doxhq8xg
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:45:33 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzcxMzIsImp0aSI6Ik5PVjM4YzdmdFwvbjhDSHUxVlRGN1N0U0RBdzlxd1pxd2lOa0pMMFA4Sk9RPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3NzEzMiwiZXhwIjoxNTI3Njc4OTMyLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.btz3mWX6p_wMhjs-tGs7UVrozYx_ropxwx2doxhq8xg
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:45:36 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2NzcxMzIsImp0aSI6Ik5PVjM4YzdmdFwvbjhDSHUxVlRGN1N0U0RBdzlxd1pxd2lOa0pMMFA4Sk9RPSIsImlzcyI6Ijo6MSIsIm5iZiI6MTUyNzY3NzEzMiwiZXhwIjoxNTI3Njc4OTMyLCJkYXRhIjp7InVzZXJuYW1lIjoicmFobWF0IiwicGFzc3dvcmQiOiI5MWRmN2FhNjIwOTljM2JmNGEzZjZkNWQ1NDU2Mzc4OTQ4OWUwNGI1IiwiaXAiOiI6OjEiLCJ1c2VyX2FnZW50IjoiVGlja2V0aW5nLVdlYkFwcCJ9fQ.btz3mWX6p_wMhjs-tGs7UVrozYx_ropxwx2doxhq8xg
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:50:24 
+::1 POST /synergix-takaful/public-api/v1/users/token HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 31
+User-Agent: Ticketing-WebApp
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+username=rahmat&password=rahmat
+========================================
+2018-05-30 17:50:25 
+::1 GET /synergix-takaful/public-api/v1/users/109 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:50:25 
+::1 GET /synergix-takaful/public-api/v1/user_level_modules/active?code=TICKET&user_level_id=6 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:50:26 
+::1 GET /synergix-takaful/public-api/v1/tickets?department_ticket=24&limit=20&start=1527613200&end=1527613200 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:54:05 
+::1 GET /synergix-takaful/public-api/v1/ticket_subcategories?ticket_category_id=42&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:54:05 
+::1 GET /synergix-takaful/public-api/v1/ticket_categories?product_type_id=2&ticket_type_id=6&is_active=1&limit=500&order=name HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:54:05 
+::1 GET /synergix-takaful/public-api/v1/customers/2534 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:54:16 
+::1 POST /synergix-takaful/public-api/v1/tickets HTTP/1.1
+HTTP headers:
+Host: localhost
+Content-Length: 315
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Request body:
+media_id=1&contact_type_id=5&ticket_source_id=1&product_type_id=2&ticket_category_id=42&ticket_subcategory_id=189&ticket_type_id=6&department_id=5&create_date=2018-05-30+17%3A54%3A16&create_user_id=109&open_date=2018-05-30+17%3A54%3A16&open_user_id=109&ticket_detail=DFGHJK&customer_id=2534&sla=2&ticket_status_id=1
+========================================
+2018-05-30 17:54:17 
+::1 GET /synergix-takaful/public-api/v1/tickets/2466 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:54:18 
+::1 GET /synergix-takaful/public-api/v1/tickets?limit=1&ticket_no=1805300681&department_ticket=24 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:54:19 
+::1 GET /synergix-takaful/public-api/v1/ticket_categories?is_active=1&ticket_type_id=6&product_type_id=2 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
+2018-05-30 17:54:19 
+::1 GET /synergix-takaful/public-api/v1/ticket_subcategories?is_active=1&ticket_category_id=42 HTTP/1.1
+HTTP headers:
+Host: localhost
+User-Agent: Ticketing-WebApp
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Mjc2Nzc0MjQsImp0aSI6ImMyXC96MXNjRUFua0ViNmtrWDlVWVlRdmJrYVBLUVwvcWlGdGF4K1JBc2VrOD0iLCJpc3MiOiI6OjEiLCJuYmYiOjE1Mjc2Nzc0MjQsImV4cCI6MTUyNzY3OTIyNCwiZGF0YSI6eyJ1c2VybmFtZSI6InJhaG1hdCIsInBhc3N3b3JkIjoiOTFkZjdhYTYyMDk5YzNiZjRhM2Y2ZDVkNTQ1NjM3ODk0ODllMDRiNSIsImlwIjoiOjoxIiwidXNlcl9hZ2VudCI6IlRpY2tldGluZy1XZWJBcHAifX0.dtaocgjFp3r05gLgBj1ePrJNQCih3Q8bgdmfjAz-s5Q
+Connection: close
+Request body:
+
+========================================
